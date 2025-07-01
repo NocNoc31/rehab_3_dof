@@ -1,0 +1,3 @@
+Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nocc/Desktop/3dof_rehab_arm/src/odrive_can_control -DCMAKE_INSTALL_PREFIX=/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control
+Invoked command in '/home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nocc/Desktop/3dof_rehab_arm/src/odrive_can_control -DCMAKE_INSTALL_PREFIX=/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control
+Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control -- -j8 -l8

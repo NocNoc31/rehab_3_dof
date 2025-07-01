@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-15f103a701af18c62e53.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rehab_arm_robot_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_odrive_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_odrive_bridge-a4d01a85ae3315090d4a.json",
+					"name" : "arm_odrive_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "planning::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-planning-58cf7c1de25d745eac99.json",
+					"name" : "planning",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rehab_arm_robot_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rehab_arm_robot_control_uninstall-523606e82612f0f003e7.json",
+					"name" : "rehab_arm_robot_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rrt_motion_planning::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rrt_motion_planning-b5bf3ed16f9264536bda.json",
+					"name" : "rrt_motion_planning",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "state_reader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-state_reader-52ce376ecc53fbdd346d.json",
+					"name" : "state_reader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6a413d4b96f857722295.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control",
+		"source" : "/home/nocc/Desktop/3dof_rehab_arm/src/rehab_arm_robot_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,139 @@
+[0.000000] (-) TimerEvent: {}
+[0.000350] (-) JobUnselected: {'identifier': 'odrive_can_interface'}
+[0.000372] (-) JobUnselected: {'identifier': 'rehab_arm_robot'}
+[0.000392] (-) JobUnselected: {'identifier': 'rehab_arm_robot_moveit_config'}
+[0.000506] (rehab_arm_robot_control) JobQueued: {'identifier': 'rehab_arm_robot_control', 'dependencies': OrderedDict([('odrive_can_interface', '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface')])}
+[0.000523] (rehab_arm_robot_control) JobStarted: {'identifier': 'rehab_arm_robot_control'}
+[0.007503] (rehab_arm_robot_control) JobProgress: {'identifier': 'rehab_arm_robot_control', 'progress': 'cmake'}
+[0.008005] (rehab_arm_robot_control) JobProgress: {'identifier': 'rehab_arm_robot_control', 'progress': 'build'}
+[0.008630] (rehab_arm_robot_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control', '--', '-j8', '-l8'], 'cwd': '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control', 'env': OrderedDict([('LINOROBOT2_BASE', 'mecanum'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nocc'), ('LC_TIME', 'vi_VN'), ('LINOROBOT2_LIDAR', 'a1'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/nocc'), ('OLDPWD', '/home/nocc'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1718'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nocc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nocc'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/nocc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nocc-Aspire-A315-58:@/tmp/.ICE-unix/1683,unix/nocc-Aspire-A315-58:/tmp/.ICE-unix/1683'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/83bfc82e_97c1_4aca_91f8_d7006a49d649'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1GSP82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'vi_VN'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface:/opt/ros/humble')]), 'shell': False}
+[0.029116] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099883] (-) TimerEvent: {}
+[0.119949] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.140201] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.141812] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.145647] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.151754] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.160005] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.181311] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.182220] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.194412] (rehab_arm_robot_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.200045] (-) TimerEvent: {}
+[0.229553] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.249669] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)\n'}
+[0.261036] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.274264] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[0.281514] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[0.300233] (-) TimerEvent: {}
+[0.363780] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[0.390902] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[0.395277] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.400317] (-) TimerEvent: {}
+[0.409479] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[0.430215] (rehab_arm_robot_control) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[0.437217] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.500521] (-) TimerEvent: {}
+[0.510976] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[0.531870] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[0.550682] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[0.570715] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Found odrive_can_interface: 0.0.1 (/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface/share/odrive_can_interface/cmake)\n'}
+[0.571976] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Found graph_msgs: 0.2.0 (/opt/ros/humble/share/graph_msgs/cmake)\n'}
+[0.591292] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.600706] (-) TimerEvent: {}
+[0.640849] (rehab_arm_robot_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.641093] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nocc/Desktop/3dof_rehab_arm/src/rehab_arm_robot_control/include>\n'}
+[0.641185] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.641379] (rehab_arm_robot_control) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.641643] (rehab_arm_robot_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.641862] (rehab_arm_robot_control) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.642297] (rehab_arm_robot_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.642400] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.642963] (rehab_arm_robot_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.643458] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.685041] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Generating done\n'}
+[0.698715] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Build files have been written to: /home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control\n'}
+[0.700809] (-) TimerEvent: {}
+[0.721729] (rehab_arm_robot_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target arm_odrive_bridge\x1b[0m\n'}
+[0.721948] (rehab_arm_robot_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rrt_motion_planning\x1b[0m\n'}
+[0.722442] (rehab_arm_robot_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target state_reader\x1b[0m\n'}
+[0.722617] (rehab_arm_robot_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target planning\x1b[0m\n'}
+[0.745523] (rehab_arm_robot_control) StdoutLine: {'line': b'[ 25%] Built target arm_odrive_bridge\n'}
+[0.756207] (rehab_arm_robot_control) StdoutLine: {'line': b'[ 50%] Built target rrt_motion_planning\n'}
+[0.759168] (rehab_arm_robot_control) StdoutLine: {'line': b'[ 75%] Built target state_reader\n'}
+[0.767931] (rehab_arm_robot_control) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/planning.dir/src/planning.cpp.o\x1b[0m\n'}
+[0.800936] (-) TimerEvent: {}
+[0.901265] (-) TimerEvent: {}
+[1.001589] (-) TimerEvent: {}
+[1.101927] (-) TimerEvent: {}
+[1.202326] (-) TimerEvent: {}
+[1.302607] (-) TimerEvent: {}
+[1.402873] (-) TimerEvent: {}
+[1.503129] (-) TimerEvent: {}
+[1.603421] (-) TimerEvent: {}
+[1.703700] (-) TimerEvent: {}
+[1.803971] (-) TimerEvent: {}
+[1.904244] (-) TimerEvent: {}
+[2.004506] (-) TimerEvent: {}
+[2.104797] (-) TimerEvent: {}
+[2.205093] (-) TimerEvent: {}
+[2.305345] (-) TimerEvent: {}
+[2.405610] (-) TimerEvent: {}
+[2.505941] (-) TimerEvent: {}
+[2.606206] (-) TimerEvent: {}
+[2.706468] (-) TimerEvent: {}
+[2.806726] (-) TimerEvent: {}
+[2.906976] (-) TimerEvent: {}
+[3.007234] (-) TimerEvent: {}
+[3.107487] (-) TimerEvent: {}
+[3.207737] (-) TimerEvent: {}
+[3.308002] (-) TimerEvent: {}
+[3.408266] (-) TimerEvent: {}
+[3.508549] (-) TimerEvent: {}
+[3.608829] (-) TimerEvent: {}
+[3.709088] (-) TimerEvent: {}
+[3.809324] (-) TimerEvent: {}
+[3.909579] (-) TimerEvent: {}
+[4.009845] (-) TimerEvent: {}
+[4.112451] (-) TimerEvent: {}
+[4.212806] (-) TimerEvent: {}
+[4.268319] (rehab_arm_robot_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable planning\x1b[0m\n'}
+[4.312915] (-) TimerEvent: {}
+[4.413177] (-) TimerEvent: {}
+[4.513436] (-) TimerEvent: {}
+[4.613743] (-) TimerEvent: {}
+[4.714055] (-) TimerEvent: {}
+[4.795849] (rehab_arm_robot_control) StdoutLine: {'line': b'[100%] Built target planning\n'}
+[4.807754] (rehab_arm_robot_control) CommandEnded: {'returncode': 0}
+[4.808381] (rehab_arm_robot_control) JobProgress: {'identifier': 'rehab_arm_robot_control', 'progress': 'install'}
+[4.814135] (-) TimerEvent: {}
+[4.815133] (rehab_arm_robot_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control'], 'cwd': '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control', 'env': OrderedDict([('LINOROBOT2_BASE', 'mecanum'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nocc'), ('LC_TIME', 'vi_VN'), ('LINOROBOT2_LIDAR', 'a1'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/nocc'), ('OLDPWD', '/home/nocc'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1718'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nocc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nocc'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/nocc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nocc-Aspire-A315-58:@/tmp/.ICE-unix/1683,unix/nocc-Aspire-A315-58:/tmp/.ICE-unix/1683'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/83bfc82e_97c1_4aca_91f8_d7006a49d649'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1GSP82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'vi_VN'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface:/opt/ros/humble')]), 'shell': False}
+[4.823096] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.823285] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/lib/rehab_arm_robot_control/state_reader\n'}
+[4.825039] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Set runtime path of "/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/lib/rehab_arm_robot_control/state_reader" to ""\n'}
+[4.825122] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/lib/rehab_arm_robot_control/planning\n'}
+[4.825677] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Set runtime path of "/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/lib/rehab_arm_robot_control/planning" to ""\n'}
+[4.825771] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/lib/rehab_arm_robot_control/rrt_motion_planning\n'}
+[4.827575] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Set runtime path of "/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/lib/rehab_arm_robot_control/rrt_motion_planning" to ""\n'}
+[4.827690] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control//launch\n'}
+[4.827779] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control//launch/rrt_planner.launch.py\n'}
+[4.827865] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control//launch/rehab_odrive_control.launch.py\n'}
+[4.827937] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/lib/rehab_arm_robot_control/arm_odrive_bridge\n'}
+[4.829610] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Set runtime path of "/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/lib/rehab_arm_robot_control/arm_odrive_bridge" to ""\n'}
+[4.829704] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/ament_index/resource_index/package_run_dependencies/rehab_arm_robot_control\n'}
+[4.829798] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/ament_index/resource_index/parent_prefix_path/rehab_arm_robot_control\n'}
+[4.829886] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/environment/ament_prefix_path.sh\n'}
+[4.829971] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/environment/ament_prefix_path.dsv\n'}
+[4.830095] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/environment/path.sh\n'}
+[4.830180] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/environment/path.dsv\n'}
+[4.830269] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/local_setup.bash\n'}
+[4.830362] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/local_setup.sh\n'}
+[4.830453] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/local_setup.zsh\n'}
+[4.830539] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/local_setup.dsv\n'}
+[4.830679] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.dsv\n'}
+[4.830793] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/ament_index/resource_index/packages/rehab_arm_robot_control\n'}
+[4.830888] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/cmake/rehab_arm_robot_controlConfig.cmake\n'}
+[4.830974] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/cmake/rehab_arm_robot_controlConfig-version.cmake\n'}
+[4.831061] (rehab_arm_robot_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.xml\n'}
+[4.832181] (rehab_arm_robot_control) CommandEnded: {'returncode': 0}
+[4.844715] (rehab_arm_robot_control) JobEnded: {'identifier': 'rehab_arm_robot_control', 'rc': 0}
+[4.844970] (-) EventReactorShutdown: {}

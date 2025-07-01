@@ -1,0 +1,12 @@
+/usr/bin/ld: CMakeFiles/planning.dir/src/planning.cpp.o: in function `ExampleJointTrajectoryPublisherCpp::ExampleJointTrajectoryPublisherCpp()':
+planning.cpp:(.text._ZN34ExampleJointTrajectoryPublisherCppC2Ev[_ZN34ExampleJointTrajectoryPublisherCppC5Ev]+0x211): undefined reference to `moveit_visual_tools::MoveItVisualTools::MoveItVisualTools(std::shared_ptr<rclcpp::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::shared_ptr<moveit::core::RobotModel const>)'
+/usr/bin/ld: planning.cpp:(.text._ZN34ExampleJointTrajectoryPublisherCppC2Ev[_ZN34ExampleJointTrajectoryPublisherCppC5Ev]+0x4e7): undefined reference to `rviz_visual_tools::RvizVisualTools::deleteAllMarkers()'
+/usr/bin/ld: planning.cpp:(.text._ZN34ExampleJointTrajectoryPublisherCppC2Ev[_ZN34ExampleJointTrajectoryPublisherCppC5Ev]+0x501): undefined reference to `rviz_visual_tools::RvizVisualTools::enableBatchPublishing(bool)'
+/usr/bin/ld: CMakeFiles/planning.dir/src/planning.cpp.o: in function `ExampleJointTrajectoryPublisherCpp::timerCallback()':
+planning.cpp:(.text._ZN34ExampleJointTrajectoryPublisherCpp13timerCallbackEv[_ZN34ExampleJointTrajectoryPublisherCpp13timerCallbackEv]+0x7ec): undefined reference to `moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(robot_trajectory::RobotTrajectory const&, moveit::core::JointModelGroup const*, rviz_visual_tools::Colors const&)'
+/usr/bin/ld: planning.cpp:(.text._ZN34ExampleJointTrajectoryPublisherCpp13timerCallbackEv[_ZN34ExampleJointTrajectoryPublisherCpp13timerCallbackEv]+0x81f): undefined reference to `rviz_visual_tools::RvizVisualTools::trigger()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/planning.dir/build.make:363: planning] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/planning.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

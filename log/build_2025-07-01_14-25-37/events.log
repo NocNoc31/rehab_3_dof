@@ -1,0 +1,225 @@
+[0.000000] (-) TimerEvent: {}
+[0.000960] (-) JobUnselected: {'identifier': 'data_pub'}
+[0.001254] (-) JobUnselected: {'identifier': 'impedance_control'}
+[0.001566] (-) JobUnselected: {'identifier': 'rehab_arm_robot'}
+[0.001835] (-) JobUnselected: {'identifier': 'rehab_arm_robot_control'}
+[0.001948] (-) JobUnselected: {'identifier': 'rehab_arm_robot_moveit_config'}
+[0.002147] (odrive_can_control) JobQueued: {'identifier': 'odrive_can_control', 'dependencies': OrderedDict()}
+[0.002218] (odrive_can_control) JobStarted: {'identifier': 'odrive_can_control'}
+[0.020075] (odrive_can_control) JobProgress: {'identifier': 'odrive_can_control', 'progress': 'cmake'}
+[0.021589] (odrive_can_control) JobProgress: {'identifier': 'odrive_can_control', 'progress': 'build'}
+[0.023148] (odrive_can_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control', '--', '-j8', '-l8'], 'cwd': '/home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LINOROBOT2_BASE', 'mecanum'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nocc'), ('LC_TIME', 'vi_VN'), ('LINOROBOT2_LIDAR', 'a1'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/nocc'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1965'), ('SYSTEMD_EXEC_PID', '2123'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3302'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nocc/Desktop/3dof_rehab_arm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nocc'), ('JOURNAL_STREAM', '8:15621'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nocc'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/nocc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nocc-Aspire-A315-58:@/tmp/.ICE-unix/2095,unix/nocc-Aspire-A315-58:/tmp/.ICE-unix/2095'), ('INVOCATION_ID', '1449cc8135f74a95a13cc0759582795d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.21R582'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot:/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface:/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control:/home/nocc/Desktop/3dof_rehab_arm/install/Visualize:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:56961fee-9a3d-4ead-a353-94049257f84c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nocc/Desktop/3dof_rehab_arm/install/Visualize/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot:/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface:/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control:/home/nocc/Desktop/3dof_rehab_arm/install/Visualize:/opt/ros/humble')]), 'shell': False}
+[0.100105] (-) TimerEvent: {}
+[0.127973] (odrive_can_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target position_controller\x1b[0m\n'}
+[0.165824] (odrive_can_control) StdoutLine: {'line': b'[ 16%] Built target odrive_initializer\n'}
+[0.169641] (odrive_can_control) StdoutLine: {'line': b'[ 50%] Built target odrive_can_node\n'}
+[0.170055] (odrive_can_control) StdoutLine: {'line': b'[ 50%] Built target impedance_multi_control\n'}
+[0.172367] (odrive_can_control) StdoutLine: {'line': b'[ 66%] Built target velocity_controller\n'}
+[0.181114] (odrive_can_control) StdoutLine: {'line': b'[ 83%] Built target read_param\n'}
+[0.187965] (odrive_can_control) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/position_controller.dir/src/position_controller.cpp.o\x1b[0m\n'}
+[0.200223] (-) TimerEvent: {}
+[0.300644] (-) TimerEvent: {}
+[0.401082] (-) TimerEvent: {}
+[0.501561] (-) TimerEvent: {}
+[0.602100] (-) TimerEvent: {}
+[0.702531] (-) TimerEvent: {}
+[0.802967] (-) TimerEvent: {}
+[0.903461] (-) TimerEvent: {}
+[1.004006] (-) TimerEvent: {}
+[1.104598] (-) TimerEvent: {}
+[1.205163] (-) TimerEvent: {}
+[1.305642] (-) TimerEvent: {}
+[1.406098] (-) TimerEvent: {}
+[1.506598] (-) TimerEvent: {}
+[1.607131] (-) TimerEvent: {}
+[1.707709] (-) TimerEvent: {}
+[1.808338] (-) TimerEvent: {}
+[1.908927] (-) TimerEvent: {}
+[2.009785] (-) TimerEvent: {}
+[2.110455] (-) TimerEvent: {}
+[2.210976] (-) TimerEvent: {}
+[2.311503] (-) TimerEvent: {}
+[2.412019] (-) TimerEvent: {}
+[2.512555] (-) TimerEvent: {}
+[2.613060] (-) TimerEvent: {}
+[2.713605] (-) TimerEvent: {}
+[2.814205] (-) TimerEvent: {}
+[2.914837] (-) TimerEvent: {}
+[3.015276] (-) TimerEvent: {}
+[3.115690] (-) TimerEvent: {}
+[3.216382] (-) TimerEvent: {}
+[3.316916] (-) TimerEvent: {}
+[3.417393] (-) TimerEvent: {}
+[3.517832] (-) TimerEvent: {}
+[3.618342] (-) TimerEvent: {}
+[3.718774] (-) TimerEvent: {}
+[3.819243] (-) TimerEvent: {}
+[3.919779] (-) TimerEvent: {}
+[4.020220] (-) TimerEvent: {}
+[4.120692] (-) TimerEvent: {}
+[4.221193] (-) TimerEvent: {}
+[4.321619] (-) TimerEvent: {}
+[4.422133] (-) TimerEvent: {}
+[4.522629] (-) TimerEvent: {}
+[4.623160] (-) TimerEvent: {}
+[4.723669] (-) TimerEvent: {}
+[4.824109] (-) TimerEvent: {}
+[4.924678] (-) TimerEvent: {}
+[5.025159] (-) TimerEvent: {}
+[5.125638] (-) TimerEvent: {}
+[5.226114] (-) TimerEvent: {}
+[5.326666] (-) TimerEvent: {}
+[5.427163] (-) TimerEvent: {}
+[5.527642] (-) TimerEvent: {}
+[5.628182] (-) TimerEvent: {}
+[5.728609] (-) TimerEvent: {}
+[5.829027] (-) TimerEvent: {}
+[5.929474] (-) TimerEvent: {}
+[6.029877] (-) TimerEvent: {}
+[6.130316] (-) TimerEvent: {}
+[6.230745] (-) TimerEvent: {}
+[6.331186] (-) TimerEvent: {}
+[6.431618] (-) TimerEvent: {}
+[6.532059] (-) TimerEvent: {}
+[6.632526] (-) TimerEvent: {}
+[6.732993] (-) TimerEvent: {}
+[6.833468] (-) TimerEvent: {}
+[6.933965] (-) TimerEvent: {}
+[7.034442] (-) TimerEvent: {}
+[7.134891] (-) TimerEvent: {}
+[7.235352] (-) TimerEvent: {}
+[7.335809] (-) TimerEvent: {}
+[7.436231] (-) TimerEvent: {}
+[7.536673] (-) TimerEvent: {}
+[7.637123] (-) TimerEvent: {}
+[7.737561] (-) TimerEvent: {}
+[7.837980] (-) TimerEvent: {}
+[7.938486] (-) TimerEvent: {}
+[8.038939] (-) TimerEvent: {}
+[8.139440] (-) TimerEvent: {}
+[8.239945] (-) TimerEvent: {}
+[8.340539] (-) TimerEvent: {}
+[8.441103] (-) TimerEvent: {}
+[8.541649] (-) TimerEvent: {}
+[8.642073] (-) TimerEvent: {}
+[8.742616] (-) TimerEvent: {}
+[8.843030] (-) TimerEvent: {}
+[8.943629] (-) TimerEvent: {}
+[9.044140] (-) TimerEvent: {}
+[9.144666] (-) TimerEvent: {}
+[9.245313] (-) TimerEvent: {}
+[9.345872] (-) TimerEvent: {}
+[9.446361] (-) TimerEvent: {}
+[9.546807] (-) TimerEvent: {}
+[9.647212] (-) TimerEvent: {}
+[9.747751] (-) TimerEvent: {}
+[9.848334] (-) TimerEvent: {}
+[9.948876] (-) TimerEvent: {}
+[10.049420] (-) TimerEvent: {}
+[10.150017] (-) TimerEvent: {}
+[10.250591] (-) TimerEvent: {}
+[10.351075] (-) TimerEvent: {}
+[10.451514] (-) TimerEvent: {}
+[10.552160] (-) TimerEvent: {}
+[10.652715] (-) TimerEvent: {}
+[10.753204] (-) TimerEvent: {}
+[10.853748] (-) TimerEvent: {}
+[10.954255] (-) TimerEvent: {}
+[11.054653] (-) TimerEvent: {}
+[11.155132] (-) TimerEvent: {}
+[11.255657] (-) TimerEvent: {}
+[11.356115] (-) TimerEvent: {}
+[11.456614] (-) TimerEvent: {}
+[11.557120] (-) TimerEvent: {}
+[11.657629] (-) TimerEvent: {}
+[11.758177] (-) TimerEvent: {}
+[11.858679] (-) TimerEvent: {}
+[11.959163] (-) TimerEvent: {}
+[12.059591] (-) TimerEvent: {}
+[12.159980] (-) TimerEvent: {}
+[12.260468] (-) TimerEvent: {}
+[12.360876] (-) TimerEvent: {}
+[12.461316] (-) TimerEvent: {}
+[12.561804] (-) TimerEvent: {}
+[12.662321] (-) TimerEvent: {}
+[12.762795] (-) TimerEvent: {}
+[12.863305] (-) TimerEvent: {}
+[12.963777] (-) TimerEvent: {}
+[13.064200] (-) TimerEvent: {}
+[13.164681] (-) TimerEvent: {}
+[13.265196] (-) TimerEvent: {}
+[13.365692] (-) TimerEvent: {}
+[13.466176] (-) TimerEvent: {}
+[13.566681] (-) TimerEvent: {}
+[13.667112] (-) TimerEvent: {}
+[13.767517] (-) TimerEvent: {}
+[13.868051] (-) TimerEvent: {}
+[13.968448] (-) TimerEvent: {}
+[14.068915] (-) TimerEvent: {}
+[14.169397] (-) TimerEvent: {}
+[14.269836] (-) TimerEvent: {}
+[14.370318] (-) TimerEvent: {}
+[14.470805] (-) TimerEvent: {}
+[14.571349] (-) TimerEvent: {}
+[14.671841] (-) TimerEvent: {}
+[14.772325] (-) TimerEvent: {}
+[14.872763] (-) TimerEvent: {}
+[14.973334] (-) TimerEvent: {}
+[15.073790] (-) TimerEvent: {}
+[15.174332] (-) TimerEvent: {}
+[15.274832] (-) TimerEvent: {}
+[15.375396] (-) TimerEvent: {}
+[15.475871] (-) TimerEvent: {}
+[15.576381] (-) TimerEvent: {}
+[15.676953] (-) TimerEvent: {}
+[15.777436] (-) TimerEvent: {}
+[15.877965] (-) TimerEvent: {}
+[15.978559] (-) TimerEvent: {}
+[16.079188] (-) TimerEvent: {}
+[16.179768] (-) TimerEvent: {}
+[16.280384] (-) TimerEvent: {}
+[16.380904] (-) TimerEvent: {}
+[16.481361] (-) TimerEvent: {}
+[16.537352] (odrive_can_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable position_controller\x1b[0m\n'}
+[16.581511] (-) TimerEvent: {}
+[16.681994] (-) TimerEvent: {}
+[16.782477] (-) TimerEvent: {}
+[16.882989] (-) TimerEvent: {}
+[16.983542] (-) TimerEvent: {}
+[17.084076] (-) TimerEvent: {}
+[17.184597] (-) TimerEvent: {}
+[17.285026] (-) TimerEvent: {}
+[17.385468] (-) TimerEvent: {}
+[17.434440] (odrive_can_control) StdoutLine: {'line': b'[100%] Built target position_controller\n'}
+[17.456803] (odrive_can_control) CommandEnded: {'returncode': 0}
+[17.458230] (odrive_can_control) JobProgress: {'identifier': 'odrive_can_control', 'progress': 'install'}
+[17.476097] (odrive_can_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control'], 'cwd': '/home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LINOROBOT2_BASE', 'mecanum'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nocc'), ('LC_TIME', 'vi_VN'), ('LINOROBOT2_LIDAR', 'a1'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/nocc'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('MANAGERPID', '1965'), ('SYSTEMD_EXEC_PID', '2123'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3302'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nocc/Desktop/3dof_rehab_arm/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nocc'), ('JOURNAL_STREAM', '8:15621'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nocc'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/nocc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nocc-Aspire-A315-58:@/tmp/.ICE-unix/2095,unix/nocc-Aspire-A315-58:/tmp/.ICE-unix/2095'), ('INVOCATION_ID', '1449cc8135f74a95a13cc0759582795d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.21R582'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot:/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface:/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control:/home/nocc/Desktop/3dof_rehab_arm/install/Visualize:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('TERMINATOR_UUID', 'urn:uuid:56961fee-9a3d-4ead-a353-94049257f84c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nocc/Desktop/3dof_rehab_arm/install/Visualize/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot:/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface:/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control:/home/nocc/Desktop/3dof_rehab_arm/install/Visualize:/opt/ros/humble')]), 'shell': False}
+[17.485567] (-) TimerEvent: {}
+[17.492308] (odrive_can_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.492841] (odrive_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/lib/odrive_can_control/odrive_can_node\n'}
+[17.493274] (odrive_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/lib/odrive_can_control/odrive_initializer\n'}
+[17.493873] (odrive_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/lib/odrive_can_control/velocity_controller\n'}
+[17.494603] (odrive_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/lib/odrive_can_control/impedance_multi_control\n'}
+[17.494912] (odrive_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/lib/odrive_can_control/read_param\n'}
+[17.495511] (odrive_can_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/lib/odrive_can_control/position_controller\n'}
+[17.504806] (odrive_can_control) StdoutLine: {'line': b'-- Set runtime path of "/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/lib/odrive_can_control/position_controller" to ""\n'}
+[17.505386] (odrive_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/launch\n'}
+[17.505666] (odrive_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/launch/odrive_initializer.launch.py\n'}
+[17.506092] (odrive_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/ament_index/resource_index/package_run_dependencies/odrive_can_control\n'}
+[17.506433] (odrive_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/ament_index/resource_index/parent_prefix_path/odrive_can_control\n'}
+[17.506669] (odrive_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/environment/ament_prefix_path.sh\n'}
+[17.506967] (odrive_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/environment/ament_prefix_path.dsv\n'}
+[17.507357] (odrive_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/environment/path.sh\n'}
+[17.507590] (odrive_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/environment/path.dsv\n'}
+[17.507805] (odrive_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/local_setup.bash\n'}
+[17.508005] (odrive_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/local_setup.sh\n'}
+[17.508202] (odrive_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/local_setup.zsh\n'}
+[17.508422] (odrive_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/local_setup.dsv\n'}
+[17.508617] (odrive_can_control) StdoutLine: {'line': b'-- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/package.dsv\n'}
+[17.508824] (odrive_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/ament_index/resource_index/packages/odrive_can_control\n'}
+[17.509014] (odrive_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/cmake/odrive_can_controlConfig.cmake\n'}
+[17.509205] (odrive_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/cmake/odrive_can_controlConfig-version.cmake\n'}
+[17.509415] (odrive_can_control) StdoutLine: {'line': b'-- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/package.xml\n'}
+[17.511203] (odrive_can_control) CommandEnded: {'returncode': 0}
+[17.545673] (odrive_can_control) JobEnded: {'identifier': 'odrive_can_control', 'rc': 0}
+[17.546691] (-) EventReactorShutdown: {}

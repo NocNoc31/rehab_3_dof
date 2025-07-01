@@ -1,0 +1,231 @@
+[0.354s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'odrive_can_control']
+[0.354s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['odrive_can_control'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x70bb5886cb50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70bb58979f30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70bb58979f30>>)
+[0.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.790s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nocc/Desktop/3dof_rehab_arm'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control) by extensions ['ignore', 'ignore_ament_install']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control) by extension 'ignore'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control) by extension 'ignore_ament_install'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control) by extensions ['colcon_pkg']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control) by extension 'colcon_pkg'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control) by extensions ['colcon_meta']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control) by extension 'colcon_meta'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control) by extensions ['ros']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control) by extension 'ros'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control) by extensions ['cmake', 'python']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control) by extension 'cmake'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control) by extension 'python'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control) by extensions ['python_setup_py']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control) by extension 'python_setup_py'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control/Data_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control/Data_pub) by extension 'ignore'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control/Data_pub) by extension 'ignore_ament_install'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control/Data_pub) by extensions ['colcon_pkg']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control/Data_pub) by extension 'colcon_pkg'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control/Data_pub) by extensions ['colcon_meta']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control/Data_pub) by extension 'colcon_meta'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control/Data_pub) by extensions ['ros']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control/Data_pub) by extension 'ros'
+[0.825s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Control/Data_pub' with type 'ros.ament_cmake' and name 'data_pub'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control/Impedance_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control/Impedance_controller) by extension 'ignore'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control/Impedance_controller) by extension 'ignore_ament_install'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control/Impedance_controller) by extensions ['colcon_pkg']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control/Impedance_controller) by extension 'colcon_pkg'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control/Impedance_controller) by extensions ['colcon_meta']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control/Impedance_controller) by extension 'colcon_meta'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control/Impedance_controller) by extensions ['ros']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/Control/Impedance_controller) by extension 'ros'
+[0.828s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Control/Impedance_controller' with type 'ros.ament_cmake' and name 'impedance_control'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/Visualize) by extensions ['ignore', 'ignore_ament_install']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/Visualize) by extension 'ignore'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/Visualize) by extension 'ignore_ament_install'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/Visualize) by extensions ['colcon_pkg']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/Visualize) by extension 'colcon_pkg'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/Visualize) by extensions ['colcon_meta']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/Visualize) by extension 'colcon_meta'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/Visualize) by extensions ['ros']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/Visualize) by extension 'ros'
+[0.830s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Visualize' with type 'ros.ament_python' and name 'Visualize'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_can_control) by extensions ['ignore', 'ignore_ament_install']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_can_control) by extension 'ignore'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_can_control) by extension 'ignore_ament_install'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_can_control) by extensions ['colcon_pkg']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_can_control) by extension 'colcon_pkg'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_can_control) by extensions ['colcon_meta']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_can_control) by extension 'colcon_meta'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_can_control) by extensions ['ros']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_can_control) by extension 'ros'
+[0.832s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odrive_can_control' with type 'ros.ament_cmake' and name 'odrive_can_control'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_can_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_can_interface) by extension 'ignore'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_can_interface) by extension 'ignore_ament_install'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_can_interface) by extensions ['colcon_pkg']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_can_interface) by extension 'colcon_pkg'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_can_interface) by extensions ['colcon_meta']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_can_interface) by extension 'colcon_meta'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_can_interface) by extensions ['ros']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_can_interface) by extension 'ros'
+[0.835s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odrive_can_interface' with type 'ros.ament_cmake' and name 'odrive_can_interface'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extension 'ignore'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extension 'ignore_ament_install'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extensions ['colcon_pkg']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extension 'colcon_pkg'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extensions ['colcon_meta']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extension 'colcon_meta'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extensions ['ros']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extension 'ros'
+[0.837s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rehab_arm_robot' with type 'ros.ament_cmake' and name 'rehab_arm_robot'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extension 'ignore'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extension 'ignore_ament_install'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extensions ['colcon_pkg']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extension 'colcon_pkg'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extensions ['colcon_meta']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extension 'colcon_meta'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extensions ['ros']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extension 'ros'
+[0.841s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rehab_arm_robot_control' with type 'ros.ament_cmake' and name 'rehab_arm_robot_control'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extension 'ignore'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extension 'ignore_ament_install'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extensions ['colcon_pkg']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extension 'colcon_pkg'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extensions ['colcon_meta']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extension 'colcon_meta'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extensions ['ros']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extension 'ros'
+[0.844s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rehab_arm_robot_moveit_config' with type 'ros.ament_cmake' and name 'rehab_arm_robot_moveit_config'
+[0.844s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.844s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.844s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.844s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.844s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.911s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'Visualize' in 'src/Visualize'
+[0.912s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'data_pub' in 'src/Control/Data_pub'
+[0.912s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'impedance_control' in 'src/Control/Impedance_controller'
+[0.912s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'odrive_can_interface' in 'src/odrive_can_interface'
+[0.912s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rehab_arm_robot' in 'src/rehab_arm_robot'
+[0.912s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rehab_arm_robot_control' in 'src/rehab_arm_robot_control'
+[0.912s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rehab_arm_robot_moveit_config' in 'src/rehab_arm_robot_moveit_config'
+[0.913s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.913s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.920s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 422 installed packages in /opt/ros/humble
+[0.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'odrive_can_control' build argument 'cmake_args' from command line to 'None'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'odrive_can_control' build argument 'cmake_target' from command line to 'None'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'odrive_can_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'odrive_can_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'odrive_can_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'odrive_can_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'odrive_can_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'odrive_can_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'odrive_can_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.016s] DEBUG:colcon.colcon_core.verb:Building package 'odrive_can_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control', 'merge_install': False, 'path': '/home/nocc/Desktop/3dof_rehab_arm/src/odrive_can_control', 'symlink_install': False, 'test_result_base': None}
+[1.016s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.018s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.018s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nocc/Desktop/3dof_rehab_arm/src/odrive_can_control' with build type 'ament_cmake'
+[1.018s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nocc/Desktop/3dof_rehab_arm/src/odrive_can_control'
+[1.025s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.025s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.025s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control -- -j8 -l8
+[19.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control -- -j8 -l8
+[19.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control
+[19.467s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_can_control)
+[19.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control
+[19.476s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control' for CMake module files
+[19.477s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control' for CMake config files
+[19.477s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_can_control', 'cmake_prefix_path')
+[19.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/hook/cmake_prefix_path.ps1'
+[19.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/hook/cmake_prefix_path.dsv'
+[19.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/hook/cmake_prefix_path.sh'
+[19.482s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/lib'
+[19.482s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/bin'
+[19.482s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/lib/pkgconfig/odrive_can_control.pc'
+[19.483s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/lib/python3.10/site-packages'
+[19.483s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/bin'
+[19.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/package.ps1'
+[19.485s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/package.dsv'
+[19.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/package.sh'
+[19.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/package.bash'
+[19.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/package.zsh'
+[19.491s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/colcon-core/packages/odrive_can_control)
+[19.492s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_can_control)
+[19.492s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control' for CMake module files
+[19.493s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control' for CMake config files
+[19.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_can_control', 'cmake_prefix_path')
+[19.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/hook/cmake_prefix_path.ps1'
+[19.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/hook/cmake_prefix_path.dsv'
+[19.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/hook/cmake_prefix_path.sh'
+[19.496s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/lib'
+[19.496s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/bin'
+[19.496s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/lib/pkgconfig/odrive_can_control.pc'
+[19.497s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/lib/python3.10/site-packages'
+[19.497s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/bin'
+[19.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/package.ps1'
+[19.498s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/package.dsv'
+[19.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/package.sh'
+[19.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/package.bash'
+[19.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/package.zsh'
+[19.501s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/colcon-core/packages/odrive_can_control)
+[19.501s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.502s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.502s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[19.502s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.512s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.512s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.512s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.533s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.534s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nocc/Desktop/3dof_rehab_arm/install/local_setup.ps1'
+[19.538s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nocc/Desktop/3dof_rehab_arm/install/_local_setup_util_ps1.py'
+[19.543s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nocc/Desktop/3dof_rehab_arm/install/setup.ps1'
+[19.547s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nocc/Desktop/3dof_rehab_arm/install/local_setup.sh'
+[19.549s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nocc/Desktop/3dof_rehab_arm/install/_local_setup_util_sh.py'
+[19.550s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nocc/Desktop/3dof_rehab_arm/install/setup.sh'
+[19.553s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nocc/Desktop/3dof_rehab_arm/install/local_setup.bash'
+[19.554s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nocc/Desktop/3dof_rehab_arm/install/setup.bash'
+[19.556s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nocc/Desktop/3dof_rehab_arm/install/local_setup.zsh'
+[19.557s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nocc/Desktop/3dof_rehab_arm/install/setup.zsh'

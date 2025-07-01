@@ -1,0 +1,6 @@
+[0.036s] Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control': AMENT_PREFIX_PATH=/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control -- -j8 -l8
+[0.218s] [35m[1mConsolidate compiler generated dependencies of target planning[0m
+[0.245s] [ 25%] Built target arm_odrive_bridge
+[0.272s] [ 50%] Built target rrt_motion_planning
+[0.282s] [ 62%] [32mBuilding CXX object CMakeFiles/planning.dir/src/planning.cpp.o[0m
+[0.287s] [ 87%] Built target state_reader

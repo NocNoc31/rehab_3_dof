@@ -1,0 +1,182 @@
+[0.000000] (-) TimerEvent: {}
+[0.000292] (-) JobUnselected: {'identifier': 'odrive_can_interface'}
+[0.000383] (-) JobUnselected: {'identifier': 'rehab_arm_robot'}
+[0.000398] (-) JobUnselected: {'identifier': 'rehab_arm_robot_moveit_config'}
+[0.000489] (rehab_arm_robot_control) JobQueued: {'identifier': 'rehab_arm_robot_control', 'dependencies': OrderedDict([('odrive_can_interface', '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface')])}
+[0.000523] (rehab_arm_robot_control) JobStarted: {'identifier': 'rehab_arm_robot_control'}
+[0.015868] (rehab_arm_robot_control) JobProgress: {'identifier': 'rehab_arm_robot_control', 'progress': 'cmake'}
+[0.016621] (rehab_arm_robot_control) JobProgress: {'identifier': 'rehab_arm_robot_control', 'progress': 'build'}
+[0.017206] (rehab_arm_robot_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control', '--', '-j8', '-l8'], 'cwd': '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control', 'env': OrderedDict([('LINOROBOT2_BASE', 'mecanum'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nocc'), ('LC_TIME', 'vi_VN'), ('LINOROBOT2_LIDAR', 'a1'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/nocc'), ('OLDPWD', '/home/nocc'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1718'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nocc'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nocc'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/nocc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nocc-Aspire-A315-58:@/tmp/.ICE-unix/1683,unix/nocc-Aspire-A315-58:/tmp/.ICE-unix/1683'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/83bfc82e_97c1_4aca_91f8_d7006a49d649'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1GSP82'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'vi_VN'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface:/opt/ros/humble')]), 'shell': False}
+[0.074543] (rehab_arm_robot_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target planning\x1b[0m\n'}
+[0.083693] (rehab_arm_robot_control) StdoutLine: {'line': b'[ 25%] Built target arm_odrive_bridge\n'}
+[0.086113] (rehab_arm_robot_control) StdoutLine: {'line': b'[ 50%] Built target rrt_motion_planning\n'}
+[0.090201] (rehab_arm_robot_control) StdoutLine: {'line': b'[ 75%] Built target state_reader\n'}
+[0.099845] (-) TimerEvent: {}
+[0.111953] (rehab_arm_robot_control) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/planning.dir/src/planning.cpp.o\x1b[0m\n'}
+[0.199962] (-) TimerEvent: {}
+[0.300205] (-) TimerEvent: {}
+[0.400511] (-) TimerEvent: {}
+[0.500831] (-) TimerEvent: {}
+[0.602059] (-) TimerEvent: {}
+[0.702418] (-) TimerEvent: {}
+[0.802699] (-) TimerEvent: {}
+[0.903100] (-) TimerEvent: {}
+[1.003416] (-) TimerEvent: {}
+[1.103676] (-) TimerEvent: {}
+[1.203929] (-) TimerEvent: {}
+[1.304200] (-) TimerEvent: {}
+[1.404482] (-) TimerEvent: {}
+[1.504790] (-) TimerEvent: {}
+[1.605127] (-) TimerEvent: {}
+[1.705446] (-) TimerEvent: {}
+[1.805722] (-) TimerEvent: {}
+[1.906056] (-) TimerEvent: {}
+[2.006389] (-) TimerEvent: {}
+[2.106649] (-) TimerEvent: {}
+[2.206946] (-) TimerEvent: {}
+[2.307325] (-) TimerEvent: {}
+[2.407680] (-) TimerEvent: {}
+[2.508064] (-) TimerEvent: {}
+[2.608313] (-) TimerEvent: {}
+[2.708599] (-) TimerEvent: {}
+[2.808881] (-) TimerEvent: {}
+[2.909129] (-) TimerEvent: {}
+[3.009486] (-) TimerEvent: {}
+[3.109800] (-) TimerEvent: {}
+[3.210079] (-) TimerEvent: {}
+[3.310360] (-) TimerEvent: {}
+[3.410647] (-) TimerEvent: {}
+[3.511006] (-) TimerEvent: {}
+[3.611306] (-) TimerEvent: {}
+[3.711547] (-) TimerEvent: {}
+[3.811820] (-) TimerEvent: {}
+[3.912061] (-) TimerEvent: {}
+[4.012421] (-) TimerEvent: {}
+[4.112696] (-) TimerEvent: {}
+[4.212958] (-) TimerEvent: {}
+[4.313328] (-) TimerEvent: {}
+[4.413595] (-) TimerEvent: {}
+[4.513884] (-) TimerEvent: {}
+[4.614167] (-) TimerEvent: {}
+[4.714521] (-) TimerEvent: {}
+[4.814779] (-) TimerEvent: {}
+[4.915027] (-) TimerEvent: {}
+[5.015348] (-) TimerEvent: {}
+[5.115611] (-) TimerEvent: {}
+[5.215842] (-) TimerEvent: {}
+[5.316092] (-) TimerEvent: {}
+[5.416378] (-) TimerEvent: {}
+[5.516658] (-) TimerEvent: {}
+[5.616956] (-) TimerEvent: {}
+[5.717579] (-) TimerEvent: {}
+[5.817968] (-) TimerEvent: {}
+[5.918250] (-) TimerEvent: {}
+[5.936663] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nocc/Desktop/3dof_rehab_arm/src/rehab_arm_robot_control/src/planning.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[5.936891] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nocc/Desktop/3dof_rehab_arm/src/rehab_arm_robot_control/src/planning.cpp:178:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmoveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const JointTrajectory&, const moveit::core::JointModelGroup*&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.936946] (rehab_arm_robot_control) StderrLine: {'line': b'  178 |             \x1b[01;31m\x1b[Kvisual_tools_->publishTrajectoryLine(trajectory, jmg)\x1b[m\x1b[K;\n'}
+[5.936992] (rehab_arm_robot_control) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.937034] (rehab_arm_robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nocc/Desktop/3dof_rehab_arm/src/rehab_arm_robot_control/src/planning.cpp:127\x1b[m\x1b[K:\n'}
+[5.937077] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:591:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const RobotTrajectory&, const moveit::core::LinkModel*, const moveit::core::JointModelGroup*, const rviz_visual_tools::Colors&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.937122] (rehab_arm_robot_control) StderrLine: {'line': b'  591 |   bool \x1b[01;36m\x1b[KpublishTrajectoryLine\x1b[m\x1b[K(const moveit_msgs::msg::RobotTrajectory& trajectory_msg,\n'}
+[5.937163] (rehab_arm_robot_control) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.937205] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:591:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 2 provided\n'}
+[5.937257] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:595:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const RobotTrajectoryPtr&, const moveit::core::LinkModel*, const rviz_visual_tools::Colors&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.937302] (rehab_arm_robot_control) StderrLine: {'line': b'  595 |   bool \x1b[01;36m\x1b[KpublishTrajectoryLine\x1b[m\x1b[K(const robot_trajectory::RobotTrajectoryPtr& robot_trajectory,\n'}
+[5.937344] (rehab_arm_robot_control) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.937384] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:595:74:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst JointTrajectory\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst RobotTrajectoryPtr&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<robot_trajectory::RobotTrajectory>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[5.937428] (rehab_arm_robot_control) StderrLine: {'line': b'  595 | hTrajectoryLine(\x1b[01;36m\x1b[Kconst robot_trajectory::RobotTrajectoryPtr& robot_trajectory\x1b[m\x1b[K,\n'}
+[5.937469] (rehab_arm_robot_control) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.937510] (rehab_arm_robot_control) StderrLine: {'line': b'\n'}
+[5.937550] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:598:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const robot_trajectory::RobotTrajectory&, const moveit::core::LinkModel*, const rviz_visual_tools::Colors&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.937601] (rehab_arm_robot_control) StderrLine: {'line': b'  598 |   bool \x1b[01;36m\x1b[KpublishTrajectoryLine\x1b[m\x1b[K(const robot_trajectory::RobotTrajectory& robot_trajectory,\n'}
+[5.937641] (rehab_arm_robot_control) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.937685] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:598:71:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst JointTrajectory\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst robot_trajectory::RobotTrajectory&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.937727] (rehab_arm_robot_control) StderrLine: {'line': b'  598 | lishTrajectoryLine(\x1b[01;36m\x1b[Kconst robot_trajectory::RobotTrajectory& robot_trajectory\x1b[m\x1b[K,\n'}
+[5.937768] (rehab_arm_robot_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.937807] (rehab_arm_robot_control) StderrLine: {'line': b'\n'}
+[5.937847] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:610:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const RobotTrajectory&, const moveit::core::JointModelGroup*, const rviz_visual_tools::Colors&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.937889] (rehab_arm_robot_control) StderrLine: {'line': b'  610 |   bool \x1b[01;36m\x1b[KpublishTrajectoryLine\x1b[m\x1b[K(const moveit_msgs::msg::RobotTrajectory& trajectory_msg,\n'}
+[5.937932] (rehab_arm_robot_control) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.937972] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:610:71:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst JointTrajectory\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst RobotTrajectory&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst moveit_msgs::msg::RobotTrajectory_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[5.938016] (rehab_arm_robot_control) StderrLine: {'line': b'  610 | lishTrajectoryLine(\x1b[01;36m\x1b[Kconst moveit_msgs::msg::RobotTrajectory& trajectory_msg\x1b[m\x1b[K,\n'}
+[5.938057] (rehab_arm_robot_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.938096] (rehab_arm_robot_control) StderrLine: {'line': b'\n'}
+[5.938136] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:613:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const RobotTrajectoryPtr&, const moveit::core::JointModelGroup*, const rviz_visual_tools::Colors&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.938176] (rehab_arm_robot_control) StderrLine: {'line': b'  613 |   bool \x1b[01;36m\x1b[KpublishTrajectoryLine\x1b[m\x1b[K(const robot_trajectory::RobotTrajectoryPtr& robot_trajectory,\n'}
+[5.938216] (rehab_arm_robot_control) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.938265] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:613:74:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst JointTrajectory\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst RobotTrajectoryPtr&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<robot_trajectory::RobotTrajectory>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[5.938309] (rehab_arm_robot_control) StderrLine: {'line': b'  613 | hTrajectoryLine(\x1b[01;36m\x1b[Kconst robot_trajectory::RobotTrajectoryPtr& robot_trajectory\x1b[m\x1b[K,\n'}
+[5.938349] (rehab_arm_robot_control) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.938388] (rehab_arm_robot_control) StderrLine: {'line': b'\n'}
+[5.938427] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:616:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool moveit_visual_tools::MoveItVisualTools::publishTrajectoryLine(const robot_trajectory::RobotTrajectory&, const moveit::core::JointModelGroup*, const rviz_visual_tools::Colors&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.938468] (rehab_arm_robot_control) StderrLine: {'line': b'  616 |   bool \x1b[01;36m\x1b[KpublishTrajectoryLine\x1b[m\x1b[K(const robot_trajectory::RobotTrajectory& robot_trajectory,\n'}
+[5.938507] (rehab_arm_robot_control) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.938547] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:616:71:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst JointTrajectory\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst robot_trajectory::RobotTrajectory&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.938589] (rehab_arm_robot_control) StderrLine: {'line': b'  616 | lishTrajectoryLine(\x1b[01;36m\x1b[Kconst robot_trajectory::RobotTrajectory& robot_trajectory\x1b[m\x1b[K,\n'}
+[5.938627] (rehab_arm_robot_control) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.938667] (rehab_arm_robot_control) StderrLine: {'line': b'\n'}
+[6.018317] (-) TimerEvent: {}
+[6.118573] (-) TimerEvent: {}
+[6.218928] (-) TimerEvent: {}
+[6.319294] (-) TimerEvent: {}
+[6.419535] (-) TimerEvent: {}
+[6.519893] (-) TimerEvent: {}
+[6.620184] (-) TimerEvent: {}
+[6.720433] (-) TimerEvent: {}
+[6.820685] (-) TimerEvent: {}
+[6.920929] (-) TimerEvent: {}
+[7.021203] (-) TimerEvent: {}
+[7.121466] (-) TimerEvent: {}
+[7.221756] (-) TimerEvent: {}
+[7.322114] (-) TimerEvent: {}
+[7.354631] (rehab_arm_robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[7.354834] (rehab_arm_robot_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[7.354883] (rehab_arm_robot_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:40\x1b[m\x1b[K,\n'}
+[7.354925] (rehab_arm_robot_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:61\x1b[m\x1b[K,\n'}
+[7.354967] (rehab_arm_robot_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nocc/Desktop/3dof_rehab_arm/src/rehab_arm_robot_control/src/planning.cpp:121\x1b[m\x1b[K:\n'}
+[7.355009] (rehab_arm_robot_control) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = moveit_visual_tools::MoveItVisualTools; _Args = {const char (&)[10], const char (&)[19]}; _Tp = moveit_visual_tools::MoveItVisualTools]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.355057] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = moveit_visual_tools::MoveItVisualTools; _Args = {const char (&)[10], const char (&)[19]}; _Tp = moveit_visual_tools::MoveItVisualTools; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<moveit_visual_tools::MoveItVisualTools>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.355107] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[10], const char (&)[19]}; _Tp = moveit_visual_tools::MoveItVisualTools; _Alloc = std::allocator<moveit_visual_tools::MoveItVisualTools>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.355151] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = moveit_visual_tools::MoveItVisualTools; _Alloc = std::allocator<moveit_visual_tools::MoveItVisualTools>; _Args = {const char (&)[10], const char (&)[19]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.355193] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<moveit_visual_tools::MoveItVisualTools>; _Args = {const char (&)[10], const char (&)[19]}; _Tp = moveit_visual_tools::MoveItVisualTools; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.355239] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<moveit_visual_tools::MoveItVisualTools>; _Args = {const char (&)[10], const char (&)[19]}; _Tp = moveit_visual_tools::MoveItVisualTools]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.355284] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = moveit_visual_tools::MoveItVisualTools; _Alloc = std::allocator<moveit_visual_tools::MoveItVisualTools>; _Args = {const char (&)[10], const char (&)[19]}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.355326] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = moveit_visual_tools::MoveItVisualTools; _Args = {const char (&)[10], const char (&)[19]}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.355368] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nocc/Desktop/3dof_rehab_arm/src/rehab_arm_robot_control/src/planning.cpp:151:81:\x1b[m\x1b[K   required from here\n'}
+[7.355409] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmoveit_visual_tools::MoveItVisualTools::MoveItVisualTools(const char [10], const char [19])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.355451] (rehab_arm_robot_control) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[7.355492] (rehab_arm_robot_control) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.355532] (rehab_arm_robot_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nocc/Desktop/3dof_rehab_arm/src/rehab_arm_robot_control/src/planning.cpp:127\x1b[m\x1b[K:\n'}
+[7.355573] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:101:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit_visual_tools::MoveItVisualTools::MoveItVisualTools(const SharedPtr&, const string&, const string&, moveit::core::RobotModelConstPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.355615] (rehab_arm_robot_control) StderrLine: {'line': b'  101 |   \x1b[01;36m\x1b[KMoveItVisualTools\x1b[m\x1b[K(const rclcpp::Node::SharedPtr& node, const std::string& base_frame,\n'}
+[7.355656] (rehab_arm_robot_control) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.355698] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:101:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [10]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst SharedPtr&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Node>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[7.355740] (rehab_arm_robot_control) StderrLine: {'line': b'  101 |   MoveItVisualTools(\x1b[01;36m\x1b[Kconst rclcpp::Node::SharedPtr& node\x1b[m\x1b[K, const std::string& base_frame,\n'}
+[7.355780] (rehab_arm_robot_control) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[7.355820] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:92:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit_visual_tools::MoveItVisualTools::MoveItVisualTools(const SharedPtr&, const string&, const string&, planning_scene_monitor::PlanningSceneMonitorPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.355865] (rehab_arm_robot_control) StderrLine: {'line': b'   92 |   \x1b[01;36m\x1b[KMoveItVisualTools\x1b[m\x1b[K(const rclcpp::Node::SharedPtr& node, const std::string& base_frame, const std::string& marker_topic,\n'}
+[7.355905] (rehab_arm_robot_control) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.355946] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:92:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 2 provided\n'}
+[7.355987] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:83:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit_visual_tools::MoveItVisualTools::MoveItVisualTools(const SharedPtr&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.356027] (rehab_arm_robot_control) StderrLine: {'line': b'   83 |   \x1b[01;36m\x1b[KMoveItVisualTools\x1b[m\x1b[K(const rclcpp::Node::SharedPtr& node);\n'}
+[7.356066] (rehab_arm_robot_control) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.356105] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:83:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[7.356148] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:74:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit_visual_tools::MoveItVisualTools::MoveItVisualTools(const moveit_visual_tools::MoveItVisualTools&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.356188] (rehab_arm_robot_control) StderrLine: {'line': b'   74 | class \x1b[01;36m\x1b[KMoveItVisualTools\x1b[m\x1b[K : public rviz_visual_tools::RvizVisualTools\n'}
+[7.356227] (rehab_arm_robot_control) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.356276] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:74:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[7.356315] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:74:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit_visual_tools::MoveItVisualTools::MoveItVisualTools(moveit_visual_tools::MoveItVisualTools&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.356355] (rehab_arm_robot_control) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit_visual_tools/moveit_visual_tools.h:74:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[7.422311] (-) TimerEvent: {}
+[7.522555] (-) TimerEvent: {}
+[7.622825] (-) TimerEvent: {}
+[7.723062] (-) TimerEvent: {}
+[7.823388] (-) TimerEvent: {}
+[7.923663] (-) TimerEvent: {}
+[8.023938] (-) TimerEvent: {}
+[8.079716] (rehab_arm_robot_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/planning.dir/build.make:76: CMakeFiles/planning.dir/src/planning.cpp.o] Error 1\n'}
+[8.079892] (rehab_arm_robot_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/planning.dir/all] Error 2\n'}
+[8.080000] (rehab_arm_robot_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.081590] (rehab_arm_robot_control) CommandEnded: {'returncode': 2}
+[8.089591] (rehab_arm_robot_control) JobEnded: {'identifier': 'rehab_arm_robot_control', 'rc': 2}
+[8.100002] (-) EventReactorShutdown: {}

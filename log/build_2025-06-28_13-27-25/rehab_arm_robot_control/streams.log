@@ -1,0 +1,35 @@
+[0.017s] Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control': CMAKE_PREFIX_PATH=/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control -- -j8 -l8
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target planning[0m
+[0.082s] [ 25%] Built target arm_odrive_bridge
+[0.087s] [ 50%] Built target rrt_motion_planning
+[0.088s] [ 75%] Built target state_reader
+[0.094s] [ 87%] [32mBuilding CXX object CMakeFiles/planning.dir/src/planning.cpp.o[0m
+[7.082s] [100%] [32m[1mLinking CXX executable planning[0m
+[8.149s] [100%] Built target planning
+[8.161s] Invoked command in '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control' returned '0': CMAKE_PREFIX_PATH=/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control -- -j8 -l8
+[8.169s] Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control': CMAKE_PREFIX_PATH=/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control
+[8.175s] -- Install configuration: ""
+[8.175s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/lib/rehab_arm_robot_control/state_reader
+[8.175s] -- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/lib/rehab_arm_robot_control/planning
+[8.178s] -- Set runtime path of "/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/lib/rehab_arm_robot_control/planning" to ""
+[8.179s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/lib/rehab_arm_robot_control/rrt_motion_planning
+[8.179s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control//launch
+[8.179s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control//launch/rrt_planner.launch.py
+[8.179s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control//launch/rehab_odrive_control.launch.py
+[8.179s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/lib/rehab_arm_robot_control/arm_odrive_bridge
+[8.179s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/ament_index/resource_index/package_run_dependencies/rehab_arm_robot_control
+[8.179s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/ament_index/resource_index/parent_prefix_path/rehab_arm_robot_control
+[8.179s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/environment/ament_prefix_path.sh
+[8.179s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/environment/ament_prefix_path.dsv
+[8.179s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/environment/path.sh
+[8.179s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/environment/path.dsv
+[8.179s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/local_setup.bash
+[8.179s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/local_setup.sh
+[8.179s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/local_setup.zsh
+[8.179s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/local_setup.dsv
+[8.179s] -- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.dsv
+[8.180s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/ament_index/resource_index/packages/rehab_arm_robot_control
+[8.180s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/cmake/rehab_arm_robot_controlConfig.cmake
+[8.180s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/cmake/rehab_arm_robot_controlConfig-version.cmake
+[8.180s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.xml
+[8.181s] Invoked command in '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control' returned '0': CMAKE_PREFIX_PATH=/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control

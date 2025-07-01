@@ -1,0 +1,3 @@
+Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/data_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nocc/Desktop/3dof_rehab_arm/src/Control/Data_pub -DCMAKE_INSTALL_PREFIX=/home/nocc/Desktop/3dof_rehab_arm/install/data_pub
+Invoked command in '/home/nocc/Desktop/3dof_rehab_arm/build/data_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nocc/Desktop/3dof_rehab_arm/src/Control/Data_pub -DCMAKE_INSTALL_PREFIX=/home/nocc/Desktop/3dof_rehab_arm/install/data_pub
+Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/data_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/data_pub -- -j8 -l8

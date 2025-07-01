@@ -1,0 +1,9 @@
+/impedance_control_node:
+  ros__parameters:
+    kp: [1.0, 8.0]              # Kp cho động cơ 0 và 1
+    kd: [0.5, 0.8]              # Kd cho động cơ 0 và 1
+    m: [0.0, 0.0]               # M cho động cơ 0 và 1
+    torque_limit: [6.0, 5.0]    # Torque limit cho động cơ 0 và 1
+    q_desired: [-2.0, 0.5]      # Vị trí mong muốn
+    qd_dot_desired: [0.0, 0.0]  # Vận tốc mong muốn
+    qd_ddot_desired: [0.0, 0.0] # Gia tốc mong muốn

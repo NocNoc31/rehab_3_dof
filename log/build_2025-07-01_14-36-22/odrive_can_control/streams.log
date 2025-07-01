@@ -1,0 +1,41 @@
+[0.027s] Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nocc/Desktop/3dof_rehab_arm/install/Visualize:/opt/ros/humble /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control -- -j8 -l8
+[0.131s] [35m[1mConsolidate compiler generated dependencies of target position_controller[0m
+[0.168s] [ 16%] Built target velocity_controller
+[0.176s] [ 33%] Built target read_param
+[0.176s] [ 41%] [32mBuilding CXX object CMakeFiles/impedance_multi_control.dir/src/impedance_multi_control.cpp.o[0m
+[0.177s] [ 58%] Built target odrive_can_node
+[0.179s] [ 75%] Built target odrive_initializer
+[0.197s] [ 83%] [32mBuilding CXX object CMakeFiles/position_controller.dir/src/position_controller.cpp.o[0m
+[16.923s] [ 91%] [32m[1mLinking CXX executable position_controller[0m
+[17.094s] [100%] [32m[1mLinking CXX executable impedance_multi_control[0m
+[17.923s] [100%] Built target position_controller
+[18.034s] [100%] Built target impedance_multi_control
+[18.060s] Invoked command in '/home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nocc/Desktop/3dof_rehab_arm/install/Visualize:/opt/ros/humble /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control -- -j8 -l8
+[18.086s] Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nocc/Desktop/3dof_rehab_arm/install/Visualize:/opt/ros/humble /usr/bin/cmake --install /home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control
+[18.104s] -- Install configuration: ""
+[18.105s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/lib/odrive_can_control/odrive_can_node
+[18.106s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/lib/odrive_can_control/odrive_initializer
+[18.108s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/lib/odrive_can_control/velocity_controller
+[18.109s] -- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/lib/odrive_can_control/impedance_multi_control
+[18.117s] -- Set runtime path of "/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/lib/odrive_can_control/impedance_multi_control" to ""
+[18.118s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/lib/odrive_can_control/read_param
+[18.119s] -- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/lib/odrive_can_control/position_controller
+[18.132s] -- Set runtime path of "/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/lib/odrive_can_control/position_controller" to ""
+[18.132s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/launch
+[18.133s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/launch/odrive_initializer.launch.py
+[18.134s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/ament_index/resource_index/package_run_dependencies/odrive_can_control
+[18.134s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/ament_index/resource_index/parent_prefix_path/odrive_can_control
+[18.134s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/environment/ament_prefix_path.sh
+[18.134s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/environment/ament_prefix_path.dsv
+[18.135s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/environment/path.sh
+[18.135s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/environment/path.dsv
+[18.135s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/local_setup.bash
+[18.135s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/local_setup.sh
+[18.136s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/local_setup.zsh
+[18.136s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/local_setup.dsv
+[18.136s] -- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/package.dsv
+[18.137s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/ament_index/resource_index/packages/odrive_can_control
+[18.137s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/cmake/odrive_can_controlConfig.cmake
+[18.137s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/cmake/odrive_can_controlConfig-version.cmake
+[18.137s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_control/share/odrive_can_control/package.xml
+[18.142s] Invoked command in '/home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nocc/Desktop/3dof_rehab_arm/install/Visualize:/opt/ros/humble /usr/bin/cmake --install /home/nocc/Desktop/3dof_rehab_arm/build/odrive_can_control
