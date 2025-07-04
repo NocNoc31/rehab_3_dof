@@ -1,0 +1,42 @@
+[0.016s] Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface -- -j8 -l8
+[0.082s] [ 20%] Built target can_odrive_interface
+[0.118s] [35m[1mConsolidate compiler generated dependencies of target position_node[0m
+[0.141s] [ 40%] Built target velocity_node
+[0.142s] [ 60%] Built target read_encoder_node
+[0.151s] [ 90%] Built target torque_node
+[0.152s] [ 90%] [32mBuilding CXX object CMakeFiles/position_node.dir/test/test_position.cpp.o[0m
+[6.440s] [100%] [32m[1mLinking CXX executable position_node[0m
+[6.772s] [100%] Built target position_node
+[6.784s] Invoked command in '/home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface -- -j8 -l8
+[6.785s] Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface
+[6.791s] -- Install configuration: ""
+[6.791s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/environment/library_path.sh
+[6.791s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/environment/library_path.dsv
+[6.791s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/lib/libcan_odrive_interface.so
+[6.791s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/lib/can_odrive_interface/velocity_node
+[6.791s] -- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/lib/can_odrive_interface/position_node
+[6.795s] -- Set runtime path of "/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/lib/can_odrive_interface/position_node" to ""
+[6.796s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/lib/can_odrive_interface/torque_node
+[6.796s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/lib/can_odrive_interface/read_encoder_node
+[6.796s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/include
+[6.796s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/include/can_odrive_interface
+[6.796s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/include/can_odrive_interface/odrive_interface.hpp
+[6.796s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/ament_index/resource_index/package_run_dependencies/can_odrive_interface
+[6.796s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/ament_index/resource_index/parent_prefix_path/can_odrive_interface
+[6.796s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/environment/ament_prefix_path.sh
+[6.796s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/environment/ament_prefix_path.dsv
+[6.796s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/environment/path.sh
+[6.796s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/environment/path.dsv
+[6.796s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/local_setup.bash
+[6.797s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/local_setup.sh
+[6.797s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/local_setup.zsh
+[6.797s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/local_setup.dsv
+[6.797s] -- Installing: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.dsv
+[6.797s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/ament_index/resource_index/packages/can_odrive_interface
+[6.797s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.797s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[6.797s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.797s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/cmake/can_odrive_interfaceConfig.cmake
+[6.797s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/cmake/can_odrive_interfaceConfig-version.cmake
+[6.797s] -- Up-to-date: /home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.xml
+[6.800s] Invoked command in '/home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface

@@ -1,0 +1,5 @@
+[ 20%] Built target can_odrive_interface
+[ 40%] Built target torque_node
+[ 50%] [32mBuilding CXX object CMakeFiles/position_node.dir/test/test_position.cpp.o[0m
+[ 70%] Built target velocity_node
+[ 90%] Built target read_encoder_node

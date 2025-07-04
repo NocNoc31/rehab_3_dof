@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-74271e4f2b02bded950d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "can_odrive_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "can_odrive_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-can_odrive_interface-59cdcb5a761ea14b0c44.json",
+					"name" : "can_odrive_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "can_odrive_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-can_odrive_interface_uninstall-76625126fcbb925eee0d.json",
+					"name" : "can_odrive_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "position_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-position_node-898db9c9e064ead4b183.json",
+					"name" : "position_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "read_encoder_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-read_encoder_node-2fc3f43483c835a547b9.json",
+					"name" : "read_encoder_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "torque_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-torque_node-a6c7ac381a7cce01e779.json",
+					"name" : "torque_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f570c20dd8580b8c0cff.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "velocity_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-velocity_node-d603011955498c6ae710.json",
+					"name" : "velocity_node",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface",
+		"source" : "/home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

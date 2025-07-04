@@ -1,0 +1,2 @@
+source;share/odrive_joint_state_publisher/environment/ament_prefix_path.sh
+source;share/odrive_joint_state_publisher/environment/path.sh

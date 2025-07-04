@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-40653bce81b8443b2c8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "odrive_joint_state_publisher",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "odrive_joint_state_publisher_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odrive_joint_state_publisher_node-57b950fc5b189cb6c3fb.json",
+					"name" : "odrive_joint_state_publisher_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odrive_joint_state_publisher_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odrive_joint_state_publisher_uninstall-84a54c29453c574ff240.json",
+					"name" : "odrive_joint_state_publisher_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-018cc1f7a3f64f34a662.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nocc/Desktop/3dof_rehab_arm/build/odrive_joint_state_publisher",
+		"source" : "/home/nocc/Desktop/3dof_rehab_arm/src/odrive_joint_state_publisher"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

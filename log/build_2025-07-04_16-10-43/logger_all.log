@@ -1,0 +1,401 @@
+[0.197s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.197s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x78befda3ccd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78befda3c700>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78befda3c700>>)
+[0.412s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.413s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.413s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.413s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.413s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.413s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.413s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nocc/Desktop/3dof_rehab_arm'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_odrive_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_odrive_interface) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_odrive_interface) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_odrive_interface) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_odrive_interface) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_odrive_interface) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_odrive_interface) by extension 'colcon_meta'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_odrive_interface) by extensions ['ros']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/can_odrive_interface) by extension 'ros'
+[0.429s] DEBUG:colcon.colcon_core.package_identification:Package 'src/can_odrive_interface' with type 'ros.ament_cmake' and name 'can_odrive_interface'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_joint_state_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_joint_state_publisher) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_joint_state_publisher) by extension 'ignore_ament_install'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_joint_state_publisher) by extensions ['colcon_pkg']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_joint_state_publisher) by extension 'colcon_pkg'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_joint_state_publisher) by extensions ['colcon_meta']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_joint_state_publisher) by extension 'colcon_meta'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_joint_state_publisher) by extensions ['ros']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_joint_state_publisher) by extension 'ros'
+[0.431s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odrive_joint_state_publisher' with type 'ros.ament_cmake' and name 'odrive_joint_state_publisher'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extension 'colcon_pkg'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extensions ['colcon_meta']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extension 'colcon_meta'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extensions ['ros']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot) by extension 'ros'
+[0.433s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rehab_arm_robot' with type 'ros.ament_cmake' and name 'rehab_arm_robot'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extension 'ignore_ament_install'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extensions ['colcon_pkg']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extension 'colcon_pkg'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extensions ['colcon_meta']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extension 'colcon_meta'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extensions ['ros']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_control) by extension 'ros'
+[0.435s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rehab_arm_robot_control' with type 'ros.ament_cmake' and name 'rehab_arm_robot_control'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/rehab_arm_robot_moveit_config) by extension 'ros'
+[0.437s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rehab_arm_robot_moveit_config' with type 'ros.ament_cmake' and name 'rehab_arm_robot_moveit_config'
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.476s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.477s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.479s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/nocc/Desktop/3dof_rehab_arm/install
+[0.481s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 422 installed packages in /opt/ros/humble
+[0.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'can_odrive_interface' build argument 'cmake_args' from command line to 'None'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'can_odrive_interface' build argument 'cmake_target' from command line to 'None'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'can_odrive_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'can_odrive_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'can_odrive_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'can_odrive_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'can_odrive_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'can_odrive_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'can_odrive_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.575s] DEBUG:colcon.colcon_core.verb:Building package 'can_odrive_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface', 'merge_install': False, 'path': '/home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface', 'symlink_install': False, 'test_result_base': None}
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot' build argument 'cmake_args' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot' build argument 'cmake_target' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.575s] DEBUG:colcon.colcon_core.verb:Building package 'rehab_arm_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot', 'merge_install': False, 'path': '/home/nocc/Desktop/3dof_rehab_arm/src/rehab_arm_robot', 'symlink_install': False, 'test_result_base': None}
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_control' build argument 'cmake_args' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_control' build argument 'cmake_target' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.575s] DEBUG:colcon.colcon_core.verb:Building package 'rehab_arm_robot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control', 'merge_install': False, 'path': '/home/nocc/Desktop/3dof_rehab_arm/src/rehab_arm_robot_control', 'symlink_install': False, 'test_result_base': None}
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'odrive_joint_state_publisher' build argument 'cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'odrive_joint_state_publisher' build argument 'cmake_target' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'odrive_joint_state_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'odrive_joint_state_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'odrive_joint_state_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'odrive_joint_state_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'odrive_joint_state_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'odrive_joint_state_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'odrive_joint_state_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.576s] DEBUG:colcon.colcon_core.verb:Building package 'odrive_joint_state_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nocc/Desktop/3dof_rehab_arm/build/odrive_joint_state_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher', 'merge_install': False, 'path': '/home/nocc/Desktop/3dof_rehab_arm/src/odrive_joint_state_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'rehab_arm_robot_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.576s] DEBUG:colcon.colcon_core.verb:Building package 'rehab_arm_robot_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config', 'merge_install': False, 'path': '/home/nocc/Desktop/3dof_rehab_arm/src/rehab_arm_robot_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.576s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.577s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.577s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface' with build type 'ament_cmake'
+[0.578s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface'
+[0.581s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.581s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.581s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.584s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nocc/Desktop/3dof_rehab_arm/src/rehab_arm_robot' with build type 'ament_cmake'
+[0.584s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nocc/Desktop/3dof_rehab_arm/src/rehab_arm_robot'
+[0.584s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.584s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.587s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nocc/Desktop/3dof_rehab_arm/src/rehab_arm_robot_control' with build type 'ament_cmake'
+[0.588s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nocc/Desktop/3dof_rehab_arm/src/rehab_arm_robot_control'
+[0.588s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.588s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface -- -j8 -l8
+[0.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot -- -j8 -l8
+[0.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control -- -j8 -l8
+[0.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot -- -j8 -l8
+[0.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot
+[0.713s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rehab_arm_robot)
+[0.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot' for CMake module files
+[0.722s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot' for CMake config files
+[0.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('rehab_arm_robot', 'cmake_prefix_path')
+[0.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/hook/cmake_prefix_path.ps1'
+[0.725s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/hook/cmake_prefix_path.dsv'
+[0.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/hook/cmake_prefix_path.sh'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/bin'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/lib/pkgconfig/rehab_arm_robot.pc'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/lib/python3.10/site-packages'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/bin'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/package.ps1'
+[0.731s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/package.dsv'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/package.sh'
+[0.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/package.bash'
+[0.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/package.zsh'
+[0.741s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/colcon-core/packages/rehab_arm_robot)
+[0.742s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rehab_arm_robot)
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot' for CMake module files
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot' for CMake config files
+[0.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('rehab_arm_robot', 'cmake_prefix_path')
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/hook/cmake_prefix_path.ps1'
+[0.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/hook/cmake_prefix_path.dsv'
+[0.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/hook/cmake_prefix_path.sh'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/bin'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/lib/pkgconfig/rehab_arm_robot.pc'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/lib/python3.10/site-packages'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/bin'
+[0.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/package.ps1'
+[0.750s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/package.dsv'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/package.sh'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/package.bash'
+[0.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/package.zsh'
+[0.753s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/colcon-core/packages/rehab_arm_robot)
+[0.755s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nocc/Desktop/3dof_rehab_arm/src/rehab_arm_robot_moveit_config' with build type 'ament_cmake'
+[0.756s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nocc/Desktop/3dof_rehab_arm/src/rehab_arm_robot_moveit_config'
+[0.757s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.757s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_moveit_config': CMAKE_PREFIX_PATH=/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control:/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher:/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface:/opt/ros/humble /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_moveit_config -- -j8 -l8
+[0.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface -- -j8 -l8
+[0.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface
+[0.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control -- -j8 -l8
+[0.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control
+[0.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control:/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher:/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface:/opt/ros/humble /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_moveit_config -- -j8 -l8
+[0.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_moveit_config': CMAKE_PREFIX_PATH=/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control:/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher:/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface:/opt/ros/humble /usr/bin/cmake --install /home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_moveit_config
+[0.848s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(can_odrive_interface)
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface' for CMake module files
+[0.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface
+[0.849s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface' for CMake config files
+[0.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('can_odrive_interface', 'cmake_prefix_path')
+[0.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/cmake_prefix_path.ps1'
+[0.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/cmake_prefix_path.dsv'
+[0.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/cmake_prefix_path.sh'
+[0.851s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/lib'
+[0.852s] Level 1:colcon.colcon_core.shell:create_environment_hook('can_odrive_interface', 'ld_library_path_lib')
+[0.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/ld_library_path_lib.ps1'
+[0.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/ld_library_path_lib.dsv'
+[0.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/ld_library_path_lib.sh'
+[0.853s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/bin'
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/lib/pkgconfig/can_odrive_interface.pc'
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/lib/python3.10/site-packages'
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/bin'
+[0.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.ps1'
+[0.856s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.dsv'
+[0.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.sh'
+[0.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.bash'
+[0.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.zsh'
+[0.861s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/colcon-core/packages/can_odrive_interface)
+[0.863s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(can_odrive_interface)
+[0.863s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface' for CMake module files
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface' for CMake config files
+[0.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('can_odrive_interface', 'cmake_prefix_path')
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/cmake_prefix_path.ps1'
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/cmake_prefix_path.dsv'
+[0.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/cmake_prefix_path.sh'
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/lib'
+[0.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('can_odrive_interface', 'ld_library_path_lib')
+[0.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/ld_library_path_lib.ps1'
+[0.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/ld_library_path_lib.dsv'
+[0.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/hook/ld_library_path_lib.sh'
+[0.866s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/bin'
+[0.866s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/lib/pkgconfig/can_odrive_interface.pc'
+[0.866s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/lib/python3.10/site-packages'
+[0.867s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/bin'
+[0.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.ps1'
+[0.867s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.dsv'
+[0.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.sh'
+[0.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.bash'
+[0.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/can_odrive_interface/package.zsh'
+[0.869s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/share/colcon-core/packages/can_odrive_interface)
+[0.870s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nocc/Desktop/3dof_rehab_arm/src/odrive_joint_state_publisher' with build type 'ament_cmake'
+[0.871s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nocc/Desktop/3dof_rehab_arm/src/odrive_joint_state_publisher'
+[0.871s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.871s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.875s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rehab_arm_robot_control)
+[0.875s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control' for CMake module files
+[0.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control
+[0.876s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control' for CMake config files
+[0.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('rehab_arm_robot_control', 'cmake_prefix_path')
+[0.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/hook/cmake_prefix_path.ps1'
+[0.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/hook/cmake_prefix_path.dsv'
+[0.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/hook/cmake_prefix_path.sh'
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/lib'
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/bin'
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/lib/pkgconfig/rehab_arm_robot_control.pc'
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/lib/python3.10/site-packages'
+[0.879s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/bin'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.ps1'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.dsv'
+[0.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.sh'
+[0.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.bash'
+[0.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.zsh'
+[0.881s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/colcon-core/packages/rehab_arm_robot_control)
+[0.881s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rehab_arm_robot_control)
+[0.882s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control' for CMake module files
+[0.882s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control' for CMake config files
+[0.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('rehab_arm_robot_control', 'cmake_prefix_path')
+[0.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/hook/cmake_prefix_path.ps1'
+[0.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/hook/cmake_prefix_path.dsv'
+[0.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/hook/cmake_prefix_path.sh'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/lib'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/bin'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/lib/pkgconfig/rehab_arm_robot_control.pc'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/lib/python3.10/site-packages'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/bin'
+[0.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.ps1'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.dsv'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.sh'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.bash'
+[0.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/rehab_arm_robot_control/package.zsh'
+[0.886s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control/share/colcon-core/packages/rehab_arm_robot_control)
+[0.887s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rehab_arm_robot_moveit_config)
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config' for CMake module files
+[0.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control:/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher:/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface:/opt/ros/humble /usr/bin/cmake --install /home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_moveit_config
+[0.888s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config' for CMake config files
+[0.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('rehab_arm_robot_moveit_config', 'cmake_prefix_path')
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/hook/cmake_prefix_path.ps1'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/hook/cmake_prefix_path.dsv'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/hook/cmake_prefix_path.sh'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/bin'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/lib/pkgconfig/rehab_arm_robot_moveit_config.pc'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/lib/python3.10/site-packages'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/bin'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/package.ps1'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/package.dsv'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/package.sh'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/package.bash'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/package.zsh'
+[0.892s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/colcon-core/packages/rehab_arm_robot_moveit_config)
+[0.893s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rehab_arm_robot_moveit_config)
+[0.893s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config' for CMake module files
+[0.893s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config' for CMake config files
+[0.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('rehab_arm_robot_moveit_config', 'cmake_prefix_path')
+[0.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/hook/cmake_prefix_path.ps1'
+[0.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/hook/cmake_prefix_path.dsv'
+[0.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/hook/cmake_prefix_path.sh'
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/bin'
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/lib/pkgconfig/rehab_arm_robot_moveit_config.pc'
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/lib/python3.10/site-packages'
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/bin'
+[0.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/package.ps1'
+[0.895s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/package.dsv'
+[0.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/package.sh'
+[0.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/package.bash'
+[0.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/rehab_arm_robot_moveit_config/package.zsh'
+[0.897s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config/share/colcon-core/packages/rehab_arm_robot_moveit_config)
+[0.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/odrive_joint_state_publisher': CMAKE_PREFIX_PATH=/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot:/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/odrive_joint_state_publisher -- -j8 -l8
+[10.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nocc/Desktop/3dof_rehab_arm/build/odrive_joint_state_publisher' returned '0': CMAKE_PREFIX_PATH=/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot:/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/odrive_joint_state_publisher -- -j8 -l8
+[10.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/odrive_joint_state_publisher': CMAKE_PREFIX_PATH=/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot:/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/nocc/Desktop/3dof_rehab_arm/build/odrive_joint_state_publisher
+[10.146s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_joint_state_publisher)
+[10.146s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher' for CMake module files
+[10.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nocc/Desktop/3dof_rehab_arm/build/odrive_joint_state_publisher' returned '0': CMAKE_PREFIX_PATH=/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot:/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/nocc/Desktop/3dof_rehab_arm/build/odrive_joint_state_publisher
+[10.147s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher' for CMake config files
+[10.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_joint_state_publisher', 'cmake_prefix_path')
+[10.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/share/odrive_joint_state_publisher/hook/cmake_prefix_path.ps1'
+[10.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/share/odrive_joint_state_publisher/hook/cmake_prefix_path.dsv'
+[10.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/share/odrive_joint_state_publisher/hook/cmake_prefix_path.sh'
+[10.153s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/lib'
+[10.153s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/bin'
+[10.153s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/lib/pkgconfig/odrive_joint_state_publisher.pc'
+[10.153s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/lib/python3.10/site-packages'
+[10.153s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/bin'
+[10.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/share/odrive_joint_state_publisher/package.ps1'
+[10.154s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/share/odrive_joint_state_publisher/package.dsv'
+[10.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/share/odrive_joint_state_publisher/package.sh'
+[10.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/share/odrive_joint_state_publisher/package.bash'
+[10.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/share/odrive_joint_state_publisher/package.zsh'
+[10.157s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/share/colcon-core/packages/odrive_joint_state_publisher)
+[10.157s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_joint_state_publisher)
+[10.157s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher' for CMake module files
+[10.158s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher' for CMake config files
+[10.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_joint_state_publisher', 'cmake_prefix_path')
+[10.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/share/odrive_joint_state_publisher/hook/cmake_prefix_path.ps1'
+[10.159s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/share/odrive_joint_state_publisher/hook/cmake_prefix_path.dsv'
+[10.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/share/odrive_joint_state_publisher/hook/cmake_prefix_path.sh'
+[10.159s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/lib'
+[10.159s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/bin'
+[10.160s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/lib/pkgconfig/odrive_joint_state_publisher.pc'
+[10.160s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/lib/python3.10/site-packages'
+[10.160s] Level 1:colcon.colcon_core.environment:checking '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/bin'
+[10.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/share/odrive_joint_state_publisher/package.ps1'
+[10.161s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/share/odrive_joint_state_publisher/package.dsv'
+[10.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/share/odrive_joint_state_publisher/package.sh'
+[10.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/share/odrive_joint_state_publisher/package.bash'
+[10.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/share/odrive_joint_state_publisher/package.zsh'
+[10.163s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher/share/colcon-core/packages/odrive_joint_state_publisher)
+[10.163s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.163s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.163s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.163s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.180s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.180s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.180s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.213s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.213s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nocc/Desktop/3dof_rehab_arm/install/local_setup.ps1'
+[10.214s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nocc/Desktop/3dof_rehab_arm/install/_local_setup_util_ps1.py'
+[10.216s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nocc/Desktop/3dof_rehab_arm/install/setup.ps1'
+[10.218s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nocc/Desktop/3dof_rehab_arm/install/local_setup.sh'
+[10.219s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nocc/Desktop/3dof_rehab_arm/install/_local_setup_util_sh.py'
+[10.220s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nocc/Desktop/3dof_rehab_arm/install/setup.sh'
+[10.221s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nocc/Desktop/3dof_rehab_arm/install/local_setup.bash'
+[10.221s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nocc/Desktop/3dof_rehab_arm/install/setup.bash'
+[10.223s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nocc/Desktop/3dof_rehab_arm/install/local_setup.zsh'
+[10.223s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nocc/Desktop/3dof_rehab_arm/install/setup.zsh'

@@ -7,8 +7,6 @@
 
     <!-- Import control_xacro -->
     <xacro:include filename="rehab_arm_robot.ros2_control.xacro" />
-
-
     <xacro:rehab_arm_robot_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
 
 </robot>

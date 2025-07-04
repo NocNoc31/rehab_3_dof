@@ -1,8 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000606] (-) JobUnselected: {'identifier': 'data_pub'}
-[0.000799] (-) JobUnselected: {'identifier': 'impedance_control'}
-[0.001063] (-) JobUnselected: {'identifier': 'odrive_can_control'}
-[0.001128] (-) JobUnselected: {'identifier': 'rehab_arm_robot'}
-[0.001185] (-) JobUnselected: {'identifier': 'rehab_arm_robot_control'}
-[0.001258] (-) JobUnselected: {'identifier': 'rehab_arm_robot_moveit_config'}
-[0.001321] (-) EventReactorShutdown: {}

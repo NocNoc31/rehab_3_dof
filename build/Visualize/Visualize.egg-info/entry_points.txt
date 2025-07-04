@@ -1,3 +1,0 @@
-[console_scripts]
-data_plot = Visualize.data_plot:main
-

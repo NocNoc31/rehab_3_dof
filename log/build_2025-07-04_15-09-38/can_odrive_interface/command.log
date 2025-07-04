@@ -1,0 +1,2 @@
+Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface -- -j8 -l8
+Invoked command in '/home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface -- -j8 -l8

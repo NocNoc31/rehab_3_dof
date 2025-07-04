@@ -1,0 +1,7 @@
+[01m[K/home/nocc/Desktop/3dof_rehab_arm/src/odrive_joint_state_publisher/src/odrive_joint_state_publisher_node.cpp:[m[K In member function ‘[01m[Kvoid JointStatePublisherNode::execute_trajectory_action(std::shared_ptr<rclcpp_action::ServerGoalHandle<control_msgs::action::FollowJointTrajectory> >)[m[K’:
+[01m[K/home/nocc/Desktop/3dof_rehab_arm/src/odrive_joint_state_publisher/src/odrive_joint_state_publisher_node.cpp:777:65:[m[K [01;31m[Kerror: [m[K‘[01m[KPREEMPTED[m[K’ is not a member of ‘[01m[Kcontrol_msgs::action::FollowJointTrajectory::Result[m[K’ {aka ‘[01m[Kcontrol_msgs::action::FollowJointTrajectory_Result_<std::allocator<void> >[m[K’}
+  777 |             result->error_code = FollowJointTrajectory::Result::[01;31m[KPREEMPTED[m[K;
+      |                                                                 [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/odrive_joint_state_publisher_node.dir/build.make:76: CMakeFiles/odrive_joint_state_publisher_node.dir/src/odrive_joint_state_publisher_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/odrive_joint_state_publisher_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

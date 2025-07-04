@@ -3,6 +3,7 @@
 /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/meshes/upper_arm_link.STL
 /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/meshes/base_link.STL
 /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/meshes/shoulder_link.STL
+/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/urdf/rehab_arm_robot_real.urdf.xacro
 /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/urdf/rehab_arm_robot.csv
 /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/urdf/rehab_arm_robot.urdf.xacro
 /home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot/share/rehab_arm_robot/urdf/rehab_arm_robot.urdf

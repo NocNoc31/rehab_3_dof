@@ -1,24 +1,49 @@
-# This config file is used by ros2_control
+# # This config file is used by ros2_control
+# controller_manager:
+#   ros__parameters:
+#     update_rate: 100  # Hz
+
+#     rehab_arm_moveit_controller:
+#       type: joint_trajectory_controller/JointTrajectoryController
+
+
+#     joint_state_broadcaster:
+#       type: joint_state_broadcaster/JointStateBroadcaster
+
+# rehab_arm_moveit_controller:
+#   ros__parameters:
+#     joints:
+#       - joint_0
+#       - joint_1
+#       - joint_2
+#       - joint_3
+#     command_interfaces:
+#       - position
+#     state_interfaces:
+#       - position
+#       - velocity
+
+
+
+
+
 controller_manager:
   ros__parameters:
-    update_rate: 100  # Hz
-
-    rehab_arm_moveit_controller:
-      type: joint_trajectory_controller/JointTrajectoryController
-
-
+    update_rate: 100
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
-
-rehab_arm_moveit_controller:
-  ros__parameters:
-    joints:
-      - joint_0
-      - joint_1
-      - joint_2
-      - joint_3
-    command_interfaces:
-      - position
-    state_interfaces:
-      - position
-      - velocity
+      publish: false  # Tắt để chỉ JointStatePublisherNode xuất bản /joint_states
+    joint_trajectory_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+      joints:
+        - joint_0
+        - joint_1
+        - joint_2
+        - joint_3
+      command_interfaces:
+        - position
+      state_interfaces:
+        - position
+        - velocity
+      command_topic: /rehab_arm_moveit_controller/joint_trajectory
+      state_topic: /joint_states

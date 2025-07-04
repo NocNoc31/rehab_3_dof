@@ -1,1 +1,1 @@
-/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface:/opt/ros/humble
+/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_moveit_config:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot_control:/home/nocc/Desktop/3dof_rehab_arm/install/rehab_arm_robot:/home/nocc/Desktop/3dof_rehab_arm/install/odrive_joint_state_publisher:/home/nocc/Desktop/3dof_rehab_arm/install/can_odrive_interface:/opt/ros/humble

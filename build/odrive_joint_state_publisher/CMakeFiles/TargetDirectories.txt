@@ -1,0 +1,10 @@
+/home/nocc/Desktop/3dof_rehab_arm/build/odrive_joint_state_publisher/CMakeFiles/uninstall.dir
+/home/nocc/Desktop/3dof_rehab_arm/build/odrive_joint_state_publisher/CMakeFiles/odrive_joint_state_publisher_uninstall.dir
+/home/nocc/Desktop/3dof_rehab_arm/build/odrive_joint_state_publisher/CMakeFiles/odrive_joint_state_publisher_node.dir
+/home/nocc/Desktop/3dof_rehab_arm/build/odrive_joint_state_publisher/CMakeFiles/test.dir
+/home/nocc/Desktop/3dof_rehab_arm/build/odrive_joint_state_publisher/CMakeFiles/edit_cache.dir
+/home/nocc/Desktop/3dof_rehab_arm/build/odrive_joint_state_publisher/CMakeFiles/rebuild_cache.dir
+/home/nocc/Desktop/3dof_rehab_arm/build/odrive_joint_state_publisher/CMakeFiles/list_install_components.dir
+/home/nocc/Desktop/3dof_rehab_arm/build/odrive_joint_state_publisher/CMakeFiles/install.dir
+/home/nocc/Desktop/3dof_rehab_arm/build/odrive_joint_state_publisher/CMakeFiles/install/local.dir
+/home/nocc/Desktop/3dof_rehab_arm/build/odrive_joint_state_publisher/CMakeFiles/install/strip.dir

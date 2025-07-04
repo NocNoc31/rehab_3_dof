@@ -1,0 +1,10 @@
+[0.016s] Invoking command in '/home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface -- -j8 -l8
+[0.096s] [ 20%] Built target can_odrive_interface
+[0.149s] [ 40%] Built target torque_node
+[0.151s] [ 50%] [32mBuilding CXX object CMakeFiles/position_node.dir/test/test_position.cpp.o[0m
+[0.153s] [ 70%] Built target velocity_node
+[0.157s] [ 90%] Built target read_encoder_node
+[4.610s] gmake[2]: *** [CMakeFiles/position_node.dir/build.make:76: CMakeFiles/position_node.dir/test/test_position.cpp.o] Interrupt
+[4.610s] gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/position_node.dir/all] Interrupt
+[4.611s] gmake: *** [Makefile:146: all] Interrupt
+[4.644s] Invoked command in '/home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nocc/Desktop/3dof_rehab_arm/build/can_odrive_interface -- -j8 -l8

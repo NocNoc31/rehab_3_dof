@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcan_odrive_interface.a CMakeFiles/can_odrive_interface.dir/home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface/src/odrive_interface.cpp.o
+/usr/bin/ranlib libcan_odrive_interface.a

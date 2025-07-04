@@ -1,7 +1,0 @@
-[01m[K/home/nocc/Desktop/3dof_rehab_arm/src/odrive_can_control/src/test_vel_rviz2.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/joint_state.hpp: No such file or directory
-    3 | #include [01;31m[K<sensor_msgs/msg/joint_state.hpp>[m[K // Để gửi trạng thái khớp
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/test_vel_rviz2.dir/build.make:76: CMakeFiles/test_vel_rviz2.dir/src/test_vel_rviz2.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/test_vel_rviz2.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

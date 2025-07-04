@@ -3,15 +3,30 @@
 moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
 
 moveit_simple_controller_manager:
+#   controller_names:
+#     - rehab_arm_moveit_controller
+
+#   rehab_arm_moveit_controller:
+#     type: FollowJointTrajectory
+#     joints:
+#       - joint_0
+#       - joint_1
+#       - joint_2
+#       - joint_3
+#     action_ns: follow_joint_trajectory
+#     default: true
+
+
+
   controller_names:
-    - rehab_arm_moveit_controller
+    - rehab_arm_moveit_controller # Tên này phải là tên của controller trong file này
 
   rehab_arm_moveit_controller:
-    type: FollowJointTrajectory
+    action_ns: follow_joint_trajectory # Phải khớp với phần cuối của tên action server
+    type: FollowJointTrajectory # Kiểu controller
+    default: true
     joints:
       - joint_0
       - joint_1
       - joint_2
-      - joint_3
-    action_ns: follow_joint_trajectory
-    default: true
+      - joint_3 # Đảm bảo các khớp này khớp với URDF và code C++ của bạn

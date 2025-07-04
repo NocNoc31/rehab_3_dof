@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/position_node.dir/build.make:76: CMakeFiles/position_node.dir/test/test_position.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/position_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

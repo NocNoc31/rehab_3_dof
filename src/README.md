@@ -47,11 +47,7 @@ rosdep install --from-paths src --ignore-src -r -y
 
 
 
-ls /dev/ttyACM*
-sudo slcan_attach -f -s6 -o /dev/ttyACM0
-sudo slcand ttyACM0 can0
-sudo ip link set can0 up
-candump can0
+
 
 
 
@@ -81,10 +77,28 @@ This sets the planner to target a predefined goal state (e.g., a specific joint 
 Monitor the robot's joint positions and states:
 ros2 run rehab_arm_robot_control state_reader
 
+5. Run the launch file communicate between odrive_can with simulation 
+- ros2 launch rehab_arm_robot_control rehab_odrive_control.launch.py 
+See the vel and pos of motor 
+- ros2 run can_odrive_interface read_encoder_node
+Send the cmd of target position 
+- ros2 param set /planning state_cmd 1
+
+6. RUN THE FINAL MOTOR USING RVIZ2 AND HARDWARE 
+ros2 launch rehab_arm_robot_moveit_config demo.launch.py 
+
 This node subscribes to /joint_states and outputs the current positions and velocities of the robot's joints.
 CAN Communication
+ls /dev/ttyACM*
+sudo slcan_attach -f -s6 -o /dev/ttyACM0
+sudo slcand ttyACM0 can0
+sudo ip link set can0 up
+candump can0
+
+
+
 The odrive_can_interface package enables communication with ODrive motor controllers over the CAN bus. Ensure the CAN interface (can0) is active before launching nodes:
-candump can0  # Verify CAN bus activity
+
 
 Troubleshooting
 

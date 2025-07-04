@@ -1,5 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target planning[0m
-[ 25%] Built target rrt_motion_planning
-[ 50%] Built target arm_odrive_bridge
-[ 75%] Built target state_reader
-[ 87%] [32mBuilding CXX object CMakeFiles/planning.dir/src/planning.cpp.o[0m

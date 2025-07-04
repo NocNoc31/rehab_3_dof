@@ -103,27 +103,27 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rehab_arm_robot_control/" TYPE DIRECTORY FILES "/home/nocc/Desktop/3dof_rehab_arm/src/rehab_arm_robot_control/launch" FILES_MATCHING REGEX "/[^/]*\\.py$")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rehab_arm_robot_control/moveit_odrive_bridge" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rehab_arm_robot_control/moveit_odrive_bridge")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rehab_arm_robot_control/moveit_odrive_bridge"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rehab_arm_robot_control" TYPE EXECUTABLE FILES "/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control/moveit_odrive_bridge")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rehab_arm_robot_control/moveit_odrive_bridge" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rehab_arm_robot_control/moveit_odrive_bridge")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rehab_arm_robot_control/moveit_odrive_bridge"
+         OLD_RPATH "/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rehab_arm_robot_control/moveit_odrive_bridge")
+    endif()
+  endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rehab_arm_robot_control/arm_odrive_bridge" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rehab_arm_robot_control/arm_odrive_bridge")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rehab_arm_robot_control/arm_odrive_bridge"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rehab_arm_robot_control" TYPE EXECUTABLE FILES "/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control/arm_odrive_bridge")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rehab_arm_robot_control/arm_odrive_bridge" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rehab_arm_robot_control/arm_odrive_bridge")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rehab_arm_robot_control/arm_odrive_bridge"
-         OLD_RPATH "/opt/ros/humble/lib:/home/nocc/Desktop/3dof_rehab_arm/install/odrive_can_interface/lib:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rehab_arm_robot_control/arm_odrive_bridge")
-    endif()
-  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rehab_arm_robot_control/" TYPE DIRECTORY FILES "/home/nocc/Desktop/3dof_rehab_arm/src/rehab_arm_robot_control/launch" FILES_MATCHING REGEX "/[^/]*\\.py$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -172,6 +172,10 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control/ament_cmake_index/share/ament_index/resource_index/packages/rehab_arm_robot_control")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rehab_arm_robot_control/cmake" TYPE FILE FILES "/home/nocc/Desktop/3dof_rehab_arm/build/rehab_arm_robot_control/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

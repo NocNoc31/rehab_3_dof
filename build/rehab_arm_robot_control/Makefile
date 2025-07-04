@@ -237,41 +237,78 @@ rrt_motion_planning/fast:
 .PHONY : rrt_motion_planning/fast
 
 #=============================================================================
-# Target rules for targets named arm_odrive_bridge
+# Target rules for targets named moveit_odrive_bridge
 
 # Build rule for target.
-arm_odrive_bridge: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arm_odrive_bridge
-.PHONY : arm_odrive_bridge
+moveit_odrive_bridge: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 moveit_odrive_bridge
+.PHONY : moveit_odrive_bridge
 
 # fast build rule for target.
-arm_odrive_bridge/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arm_odrive_bridge.dir/build.make CMakeFiles/arm_odrive_bridge.dir/build
-.PHONY : arm_odrive_bridge/fast
+moveit_odrive_bridge/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveit_odrive_bridge.dir/build.make CMakeFiles/moveit_odrive_bridge.dir/build
+.PHONY : moveit_odrive_bridge/fast
 
-src/arm_odrive_bridge.o: src/arm_odrive_bridge.cpp.o
-.PHONY : src/arm_odrive_bridge.o
+#=============================================================================
+# Target rules for targets named can_odrive_interface
+
+# Build rule for target.
+can_odrive_interface: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 can_odrive_interface
+.PHONY : can_odrive_interface
+
+# fast build rule for target.
+can_odrive_interface/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/can_odrive_interface.dir/build.make CMakeFiles/can_odrive_interface.dir/build
+.PHONY : can_odrive_interface/fast
+
+home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface/src/odrive_interface.o: home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface/src/odrive_interface.cpp.o
+.PHONY : home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface/src/odrive_interface.o
 
 # target to build an object file
-src/arm_odrive_bridge.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arm_odrive_bridge.dir/build.make CMakeFiles/arm_odrive_bridge.dir/src/arm_odrive_bridge.cpp.o
-.PHONY : src/arm_odrive_bridge.cpp.o
+home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface/src/odrive_interface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/can_odrive_interface.dir/build.make CMakeFiles/can_odrive_interface.dir/home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface/src/odrive_interface.cpp.o
+.PHONY : home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface/src/odrive_interface.cpp.o
 
-src/arm_odrive_bridge.i: src/arm_odrive_bridge.cpp.i
-.PHONY : src/arm_odrive_bridge.i
+home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface/src/odrive_interface.i: home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface/src/odrive_interface.cpp.i
+.PHONY : home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface/src/odrive_interface.i
 
 # target to preprocess a source file
-src/arm_odrive_bridge.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arm_odrive_bridge.dir/build.make CMakeFiles/arm_odrive_bridge.dir/src/arm_odrive_bridge.cpp.i
-.PHONY : src/arm_odrive_bridge.cpp.i
+home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface/src/odrive_interface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/can_odrive_interface.dir/build.make CMakeFiles/can_odrive_interface.dir/home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface/src/odrive_interface.cpp.i
+.PHONY : home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface/src/odrive_interface.cpp.i
 
-src/arm_odrive_bridge.s: src/arm_odrive_bridge.cpp.s
-.PHONY : src/arm_odrive_bridge.s
+home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface/src/odrive_interface.s: home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface/src/odrive_interface.cpp.s
+.PHONY : home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface/src/odrive_interface.s
 
 # target to generate assembly for a file
-src/arm_odrive_bridge.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arm_odrive_bridge.dir/build.make CMakeFiles/arm_odrive_bridge.dir/src/arm_odrive_bridge.cpp.s
-.PHONY : src/arm_odrive_bridge.cpp.s
+home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface/src/odrive_interface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/can_odrive_interface.dir/build.make CMakeFiles/can_odrive_interface.dir/home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface/src/odrive_interface.cpp.s
+.PHONY : home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface/src/odrive_interface.cpp.s
+
+src/moveit_odrive_bridge.o: src/moveit_odrive_bridge.cpp.o
+.PHONY : src/moveit_odrive_bridge.o
+
+# target to build an object file
+src/moveit_odrive_bridge.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveit_odrive_bridge.dir/build.make CMakeFiles/moveit_odrive_bridge.dir/src/moveit_odrive_bridge.cpp.o
+.PHONY : src/moveit_odrive_bridge.cpp.o
+
+src/moveit_odrive_bridge.i: src/moveit_odrive_bridge.cpp.i
+.PHONY : src/moveit_odrive_bridge.i
+
+# target to preprocess a source file
+src/moveit_odrive_bridge.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveit_odrive_bridge.dir/build.make CMakeFiles/moveit_odrive_bridge.dir/src/moveit_odrive_bridge.cpp.i
+.PHONY : src/moveit_odrive_bridge.cpp.i
+
+src/moveit_odrive_bridge.s: src/moveit_odrive_bridge.cpp.s
+.PHONY : src/moveit_odrive_bridge.s
+
+# target to generate assembly for a file
+src/moveit_odrive_bridge.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveit_odrive_bridge.dir/build.make CMakeFiles/moveit_odrive_bridge.dir/src/moveit_odrive_bridge.cpp.s
+.PHONY : src/moveit_odrive_bridge.cpp.s
 
 src/planning.o: src/planning.cpp.o
 .PHONY : src/planning.o
@@ -360,13 +397,17 @@ help:
 	@echo "... test"
 	@echo "... rehab_arm_robot_control_uninstall"
 	@echo "... uninstall"
-	@echo "... arm_odrive_bridge"
+	@echo "... can_odrive_interface"
+	@echo "... moveit_odrive_bridge"
 	@echo "... planning"
 	@echo "... rrt_motion_planning"
 	@echo "... state_reader"
-	@echo "... src/arm_odrive_bridge.o"
-	@echo "... src/arm_odrive_bridge.i"
-	@echo "... src/arm_odrive_bridge.s"
+	@echo "... home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface/src/odrive_interface.o"
+	@echo "... home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface/src/odrive_interface.i"
+	@echo "... home/nocc/Desktop/3dof_rehab_arm/src/can_odrive_interface/src/odrive_interface.s"
+	@echo "... src/moveit_odrive_bridge.o"
+	@echo "... src/moveit_odrive_bridge.i"
+	@echo "... src/moveit_odrive_bridge.s"
 	@echo "... src/planning.o"
 	@echo "... src/planning.i"
 	@echo "... src/planning.s"
